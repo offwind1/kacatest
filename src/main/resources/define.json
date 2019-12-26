@@ -1,0 +1,21 @@
+{
+  "answerListJson": [
+    {
+      "answerId": "1",
+      "userAnswer": "A"
+    },
+    {
+      "answerId": "2",
+      "userAnswer": "B"
+    },
+    {
+      "answerId": "3",
+      "userAnswer": "C"
+    }
+  ],
+  "answerCardId": 71,
+  "lessonId": "b29b6de9ba2f4888bf13e2c5a767708d",
+  "classroomId": "6e53217a19e5478c942b0f9a6109217e",
+  "orgId": 0,
+  "token": "E26397B5-3A22-4A5E-A8E9-BBA9C47F3991"
+}

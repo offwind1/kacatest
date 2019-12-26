@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="接口基础测试">
+
+    <test name="测试">
+        <classes>
+            <class name="childrenTest.AddChildTestCase">
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,481 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "properties": {
+    "code": {
+      "$id": "#/properties/code",
+      "type": "integer"
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "required": [
+        "account",
+        "authen",
+        "authenResult",
+        "authenStatus",
+        "booktoken",
+        "cloudUsrAccount",
+        "cloudUsrId",
+        "createTime",
+        "gradeId",
+        "gradeName",
+        "name",
+        "nickname",
+        "orgId",
+        "token",
+        "userCode",
+        "userId"
+      ],
+      "properties": {
+        "account": {
+          "$id": "#/properties/data/properties/account",
+          "type": "string",
+          "default": null
+        },
+        "age": {
+          "$id": "#/properties/data/properties/age",
+          "type": "integer"
+        },
+        "agentId": {
+          "$id": "#/properties/data/properties/agentId",
+          "type": "integer"
+        },
+        "agentName": {
+          "$id": "#/properties/data/properties/agentName",
+          "type": "string"
+        },
+        "amountNum": {
+          "$id": "#/properties/data/properties/amountNum",
+          "type": "string"
+        },
+        "authen": {
+          "$id": "#/properties/data/properties/authen",
+          "type": "integer",
+          "default": null
+        },
+        "authenResult": {
+          "$id": "#/properties/data/properties/authenResult",
+          "type": "integer",
+          "default": null
+        },
+        "authenStatus": {
+          "$id": "#/properties/data/properties/authenStatus",
+          "type": "string",
+          "default": null
+        },
+        "bankAccount": {
+          "$id": "#/properties/data/properties/bankAccount",
+          "type": "string"
+        },
+        "billBank": {
+          "$id": "#/properties/data/properties/billBank",
+          "type": "string"
+        },
+        "billName": {
+          "$id": "#/properties/data/properties/billName",
+          "type": "string"
+        },
+        "billPhone": {
+          "$id": "#/properties/data/properties/billPhone",
+          "type": "string"
+        },
+        "billsum": {
+          "$id": "#/properties/data/properties/billsum",
+          "type": "integer"
+        },
+        "birthday": {
+          "$id": "#/properties/data/properties/birthday",
+          "type": "string"
+        },
+        "booktoken": {
+          "$id": "#/properties/data/properties/booktoken",
+          "type": "string",
+          "default": null
+        },
+        "canAdd": {
+          "$id": "#/properties/data/properties/canAdd",
+          "type": "integer"
+        },
+        "cardId": {
+          "$id": "#/properties/data/properties/cardId",
+          "type": "string"
+        },
+        "cityName": {
+          "$id": "#/properties/data/properties/cityName",
+          "type": "string"
+        },
+        "className": {
+          "$id": "#/properties/data/properties/className",
+          "type": "string"
+        },
+        "classroomId": {
+          "$id": "#/properties/data/properties/classroomId",
+          "type": "string"
+        },
+        "cloudUsrAccount": {
+          "$id": "#/properties/data/properties/cloudUsrAccount",
+          "type": "string",
+          "default": null
+        },
+        "cloudUsrId": {
+          "$id": "#/properties/data/properties/cloudUsrId",
+          "type": "string",
+          "default": null
+        },
+        "collectionCount": {
+          "$id": "#/properties/data/properties/collectionCount",
+          "type": "integer"
+        },
+        "context": {
+          "$id": "#/properties/data/properties/context",
+          "type": "string"
+        },
+        "courseList": {
+          "$id": "#/properties/data/properties/courseList",
+          "type": "array"
+        },
+        "coursewareCount": {
+          "$id": "#/properties/data/properties/coursewareCount",
+          "type": "integer"
+        },
+        "createTime": {
+          "$id": "#/properties/data/properties/createTime",
+          "type": "string"
+        },
+        "creditNum": {
+          "$id": "#/properties/data/properties/creditNum",
+          "type": "integer"
+        },
+        "department": {
+          "$id": "#/properties/data/properties/department",
+          "type": "string"
+        },
+        "editionId": {
+          "$id": "#/properties/data/properties/editionId",
+          "type": "integer"
+        },
+        "editionName": {
+          "$id": "#/properties/data/properties/editionName",
+          "type": "string"
+        },
+        "email": {
+          "$id": "#/properties/data/properties/email",
+          "type": "string"
+        },
+        "friendCount": {
+          "$id": "#/properties/data/properties/friendCount",
+          "type": "integer"
+        },
+        "friendInteg": {
+          "$id": "#/properties/data/properties/friendInteg",
+          "type": "integer"
+        },
+        "gradeId": {
+          "$id": "#/properties/data/properties/gradeId",
+          "type": "integer",
+          "default": null
+        },
+        "gradeName": {
+          "$id": "#/properties/data/properties/gradeName",
+          "type": "string",
+          "default": null
+        },
+        "integ": {
+          "$id": "#/properties/data/properties/integ",
+          "type": "integer"
+        },
+        "lessonCount": {
+          "$id": "#/properties/data/properties/lessonCount",
+          "type": "integer"
+        },
+        "lessonList": {
+          "$id": "#/properties/data/properties/lessonList",
+          "type": "array"
+        },
+        "linkName": {
+          "$id": "#/properties/data/properties/linkName",
+          "type": "string"
+        },
+        "loginMode": {
+          "$id": "#/properties/data/properties/loginMode",
+          "type": "integer"
+        },
+        "loginTime": {
+          "$id": "#/properties/data/properties/loginTime",
+          "type": "integer"
+        },
+        "loginType": {
+          "$id": "#/properties/data/properties/loginType",
+          "type": "integer"
+        },
+        "mizhuCoin": {
+          "$id": "#/properties/data/properties/mizhuCoin",
+          "type": "integer"
+        },
+        "mizhuFrozen": {
+          "$id": "#/properties/data/properties/mizhuFrozen",
+          "type": "integer"
+        },
+        "mizhuTime": {
+          "$id": "#/properties/data/properties/mizhuTime",
+          "type": "integer"
+        },
+        "mySign": {
+          "$id": "#/properties/data/properties/mySign",
+          "type": "string"
+        },
+        "name": {
+          "$id": "#/properties/data/properties/name",
+          "type": "string",
+          "default": null
+        },
+        "nickname": {
+          "$id": "#/properties/data/properties/nickname",
+          "type": "string",
+          "default": null
+        },
+        "openId": {
+          "$id": "#/properties/data/properties/openId",
+          "type": "string"
+        },
+        "orgId": {
+          "$id": "#/properties/data/properties/orgId",
+          "type": "integer",
+          "default": null
+        },
+        "orgMsgList": {
+          "$id": "#/properties/data/properties/orgMsgList",
+          "type": "array"
+        },
+        "orgName": {
+          "$id": "#/properties/data/properties/orgName",
+          "type": "string"
+        },
+        "orgRelList": {
+          "$id": "#/properties/data/properties/orgRelList",
+          "type": "array",
+          "items": {
+            "$id": "#/properties/data/properties/orgRelList/items",
+            "type": "object",
+            "properties": {
+              "mySign": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/mySign",
+                "type": "string"
+              },
+              "nickname": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/nickname",
+                "type": "string"
+              },
+              "orgId": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/orgId",
+                "type": "integer"
+              },
+              "orgLogo": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/orgLogo",
+                "type": "string"
+              },
+              "orgName": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/orgName",
+                "type": "string"
+              },
+              "photoPath": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/photoPath",
+                "type": "string"
+              },
+              "recordId": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/recordId",
+                "type": "integer"
+              },
+              "roleType": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/roleType",
+                "type": "integer"
+              },
+              "schoolId": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/schoolId",
+                "type": "integer"
+              },
+              "userId": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/userId",
+                "type": "integer"
+              },
+              "userKeep": {
+                "$id": "#/properties/data/properties/orgRelList/items/properties/userKeep",
+                "type": "integer"
+              }
+            }
+          }
+        },
+        "orgType": {
+          "$id": "#/properties/data/properties/orgType",
+          "type": "integer"
+        },
+        "password": {
+          "$id": "#/properties/data/properties/password",
+          "type": "string"
+        },
+        "payPassword": {
+          "$id": "#/properties/data/properties/payPassword",
+          "type": "string"
+        },
+        "pharseId": {
+          "$id": "#/properties/data/properties/pharseId",
+          "type": "integer"
+        },
+        "phaseName": {
+          "$id": "#/properties/data/properties/phaseName",
+          "type": "string"
+        },
+        "photoPath": {
+          "$id": "#/properties/data/properties/photoPath",
+          "type": "string"
+        },
+        "privateCharge": {
+          "$id": "#/properties/data/properties/privateCharge",
+          "type": "integer"
+        },
+        "publicCharge": {
+          "$id": "#/properties/data/properties/publicCharge",
+          "type": "integer"
+        },
+        "qq": {
+          "$id": "#/properties/data/properties/qq",
+          "type": "string"
+        },
+        "recommandId": {
+          "$id": "#/properties/data/properties/recommandId",
+          "type": "integer"
+        },
+        "recommend": {
+          "$id": "#/properties/data/properties/recommend",
+          "type": "integer"
+        },
+        "regAddress": {
+          "$id": "#/properties/data/properties/regAddress",
+          "type": "string"
+        },
+        "regChannel": {
+          "$id": "#/properties/data/properties/regChannel",
+          "type": "integer"
+        },
+        "relPhone": {
+          "$id": "#/properties/data/properties/relPhone",
+          "type": "string"
+        },
+        "roomCode": {
+          "$id": "#/properties/data/properties/roomCode",
+          "type": "string"
+        },
+        "sex": {
+          "$id": "#/properties/data/properties/sex",
+          "type": "string"
+        },
+        "starTeacher": {
+          "$id": "#/properties/data/properties/starTeacher",
+          "type": "integer"
+        },
+        "status": {
+          "$id": "#/properties/data/properties/status",
+          "type": "integer"
+        },
+        "studentCount": {
+          "$id": "#/properties/data/properties/studentCount",
+          "type": "integer"
+        },
+        "studentScore": {
+          "$id": "#/properties/data/properties/studentScore",
+          "type": "integer"
+        },
+        "subjectId": {
+          "$id": "#/properties/data/properties/subjectId",
+          "type": "integer"
+        },
+        "subjectName": {
+          "$id": "#/properties/data/properties/subjectName",
+          "type": "string"
+        },
+        "summary": {
+          "$id": "#/properties/data/properties/summary",
+          "type": "string"
+        },
+        "taxpayerNum": {
+          "$id": "#/properties/data/properties/taxpayerNum",
+          "type": "string"
+        },
+        "teacherCount": {
+          "$id": "#/properties/data/properties/teacherCount",
+          "type": "integer"
+        },
+        "times": {
+          "$id": "#/properties/data/properties/times",
+          "type": "integer"
+        },
+        "token": {
+          "$id": "#/properties/data/properties/token",
+          "type": "string",
+          "default": null
+        },
+        "top": {
+          "$id": "#/properties/data/properties/top",
+          "type": "integer"
+        },
+        "unionId": {
+          "$id": "#/properties/data/properties/unionId",
+          "type": "string"
+        },
+        "userCode": {
+          "$id": "#/properties/data/properties/userCode",
+          "type": "string",
+          "default": null
+        },
+        "userId": {
+          "$id": "#/properties/data/properties/userId",
+          "type": "integer",
+          "default": null
+        },
+        "userIdentity": {
+          "$id": "#/properties/data/properties/userIdentity",
+          "type": "integer"
+        },
+        "userIdentityValue": {
+          "$id": "#/properties/data/properties/userIdentityValue",
+          "type": "string"
+        },
+        "userIds": {
+          "$id": "#/properties/data/properties/userIds",
+          "type": "array"
+        },
+        "userKeep": {
+          "$id": "#/properties/data/properties/userKeep",
+          "type": "integer"
+        },
+        "userOrgList": {
+          "$id": "#/properties/data/properties/userOrgList",
+          "type": "array"
+        },
+        "userPhone": {
+          "$id": "#/properties/data/properties/userPhone",
+          "type": "string"
+        },
+        "userType": {
+          "$id": "#/properties/data/properties/userType",
+          "type": "integer"
+        },
+        "userTypeValue": {
+          "$id": "#/properties/data/properties/userTypeValue",
+          "type": "string"
+        }
+      }
+    },
+    "msg": {
+      "$id": "#/properties/msg",
+      "type": "string"
+    },
+    "result": {
+      "$id": "#/properties/result",
+      "type": "integer"
+    }
+  }
+}

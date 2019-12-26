@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main host="http://develop.kacha.xin">
+    <interfaces name="1 鉴权中心" value="auth">
+        <interface method="POST" name="1.1.1 密码登入" url="/auth/login" value="login"/>
+        <interface method="POST" name="1.1.2 外部登入" url="/auth/outsideLogin" value="outsideLogin"/>
+        <interface method="POST" name="1.1.3 短信登入" url="/auth/randomLogin" value="randomLogin"/>
+        <interface method="POST" name="1.1.4 公众号code登入" url="/auth/webchatLogin" value="webchatLogin"/>
+        <interface method="POST" name="1.1.5 公众号密码登入" url="/auth/loginForGZ" value="loginForGZ"/>
+        <interface method="GET" name="1.4.1 获取用户权限" url="/auth/permission/info" value="info"/>
+        <interface method="POST" name="1.4.2 指派用户权限" url="/auth/role/assign" value="assign"/>
+        <interface method="POST" name="1.4.3 移除用户权限" url="/auth/role/remove" value="remove"/>
+    </interfaces>
+    <interfaces name="2 用户中心" value="user">
+        <interface method="GET" name="2.1.1 用户信息" url="/user/userInfo" value="userInfo"/>
+        <interface method="GET" name="2.1.2 用户外部信息" url="/user/outInfo" value="outInfo"/>
+        <interface method="POST" name="2.2.1 修改用户信息" url="/user/userInfo" value="edit_userInfo"/>
+        <interface method="POST" name="2.2.2 微信保存电话号码" url="/user/userInfo/wx" value="userInfo_wx"/>
+        <interface method="POST" name="2.2.3 修改密码" url="/user/password" value="password"/>
+        <interface method="POST" name="2.3.1 外部一键投胎" url="/user/close/wx" value="close_wx"/>
+        <interface method="GET" name="2.4.1 获取短信随机码" url="/user/phone/random" value="random"/>
+        <interface method="POST" name="2.4.2 修改密码通过随机码" url="/user/phone/password" value="edit_password"/>
+        <interface method="GET" name="2.4.3 校验随机码（临时）" url="/user/phone/check" value="check"/>
+    </interfaces>
+    <interfaces name="3 亲子中心" value="parenthood">
+        <interface method="GET" name="3.1.1 子女列表" url="/parenthood/childs" value="childs"/>
+        <interface method="POST" name="3.1.2 添加子女" url="/parenthood/addChild" value="addChild"/>
+        <interface method="POST" name="3.1.3 修改子女姓名" url="/parenthood/updateChild" value="updateChild"/>
+        <interface method="POST" name="3.1.4 解除亲子关系" url="/parenthood/deleteChild" value="deleteChild"/>
+        <interface method="GET" name="3.2.1 亲子绑定码" url="/parenthood/bindCode" value="bindCode"/>
+        <interface method="POST" name="3.2.2 亲子绑定" url="/parenthood/bindChild" value="bindChild"/>
+        <interface method="POST" name="3.3.1 当前子女" url="/parenthood/currentChild" value="set_currentChild"/>
+        <interface method="GET" name="3.3.2 获取当前子女" url="/parenthood/currentChild" value="get_currentChild"/>
+        <interface method="POST" name="3.4.1 分享转移子女" url="/parenthood/currentChild" value="share_currentChild"/>
+    </interfaces>
+    <interfaces name="4 学校模块" value="school">
+        <interface method="POST" name="4.1.1 学生加入班级" url="/school/class/student/join" value="join"/>
+        <interface method="POST" name="4.1.2 退出班级" url="/school/class/student/exit" value="exit"/>
+        <interface method="GET" name="4.1.3 成员列表" url="/school/class/members" value="members"/>
+        <interface method="GET" name="4.1.4 超级管理员页面学生数据" url="/school/class/membersForSA" value="membersForSA"/>
+        <interface method="POST" name="4.1.5 创建学生加入班级" url="/school/class/student/create" value="create"/>
+        <interface method="GET" name="4.1.6 班级信息查询" url="/school/class/student/classes" value="classes"/>
+    </interfaces>
+
+
+</main>

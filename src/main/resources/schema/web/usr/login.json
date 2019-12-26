@@ -1,0 +1,68 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "required": [
+    "code",
+    "msg",
+    "token"
+  ],
+  "properties": {
+    "code": {
+      "$id": "#/properties/code",
+      "type": "string",
+      "default": null
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "required": [
+        "booktoken",
+        "userId"
+      ],
+      "properties": {
+        "booktoken": {
+          "$id": "#/properties/data/properties/booktoken",
+          "type": "string",
+          "default": null
+        },
+        "ident": {
+          "$id": "#/properties/data/properties/ident",
+          "type": "integer"
+        },
+        "orgId": {
+          "$id": "#/properties/data/properties/orgId",
+          "type": "integer"
+        },
+        "orgName": {
+          "$id": "#/properties/data/properties/orgName",
+          "type": "string"
+        },
+        "orgType": {
+          "$id": "#/properties/data/properties/orgType",
+          "type": "integer"
+        },
+        "photoPath": {
+          "$id": "#/properties/data/properties/photoPath",
+          "type": "string"
+        },
+        "userId": {
+          "$id": "#/properties/data/properties/userId",
+          "type": "string",
+          "default": null
+        }
+      }
+    },
+    "msg": {
+      "$id": "#/properties/msg",
+      "type": "string",
+      "default": null
+    },
+    "token": {
+      "$id": "#/properties/token",
+      "type": "string",
+      "default": null
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "type": "object",
+  "required": [
+    "msg",
+    "result",
+    "code",
+    "data"
+  ],
+  "properties": {
+    "msg": {
+      "type": "string"
+    },
+    "result": {
+      "type": "integer"
+    },
+    "code": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "object",
+      "required": [
+        "la"
+      ],
+      "properties": {
+        "la": {
+          "type": "object",
+          "required": [
+            "createUserId",
+            "cardName",
+            "submitAnswer",
+            "classroomId",
+            "lessonId",
+            "subjectiveItemList",
+            "objectiveItemCount",
+            "subjectiveItemCount",
+            "answerCount",
+            "createTime",
+            "answerCardId",
+            "objectiveItemList",
+            "status"
+          ],
+          "properties": {
+            "createUserId": {
+              "type": "integer"
+            },
+            "cardName": {
+              "type": "string",
+              "pattern": "^{{cardName}}$"
+            },
+            "submitAnswer": {
+              "type": "integer"
+            },
+            "classroomId": {
+              "type": "string",
+              "pattern": "^{{classroomId}}$"
+            },
+            "lessonId": {
+              "type": "string",
+              "pattern": "^{{lessonId}}$"
+            },
+            "subjectiveItemList": {
+              "type": "array"
+            },
+            "objectiveItemCount": {
+              "type": "integer"
+            },
+            "subjectiveItemCount": {
+              "type": "integer"
+            },
+            "answerCount": {
+              "type": "integer"
+            },
+            "createTime": {
+              "type": "string",
+              "pattern": "^(.*)$"
+            },
+            "answerCardId": {
+              "type": "integer"
+            },
+            "objectiveItemList": {
+              "type": "array"
+            },
+            "status": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}

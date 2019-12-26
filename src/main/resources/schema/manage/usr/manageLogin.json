@@ -1,0 +1,38 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "required": [
+    "code",
+    "msg",
+    "token"
+  ],
+  "properties": {
+    "code": {
+      "$id": "#/properties/code",
+      "type": "string",
+      "default": null
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "properties": {
+        "photoPath": {
+          "$id": "#/properties/data/properties/photoPath",
+          "type": "string"
+        }
+      }
+    },
+    "msg": {
+      "$id": "#/properties/msg",
+      "type": "string",
+      "default": null
+    },
+    "token": {
+      "$id": "#/properties/token",
+      "type": "string",
+      "default": null
+    }
+  }
+}

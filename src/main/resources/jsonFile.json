@@ -1,0 +1,26 @@
+{
+  "msg": "查询成功",
+  "result": 0,
+  "code": 0,
+  "data": {
+    "tsList": [
+      {
+        "buyCount": 1,
+        "goodsId": "bcf5ba2837a543dba2fc6c3b324898d5",
+        "typeName": "语文",
+        "orderStatus": 0,
+        "photoId": "http://images.mizholdings.com/face/default/06.gif",
+        "userName": "",
+        "userId": 0,
+        "goodsType": 0,
+        "lessonName": "接口测试生成课2019-12-20_14:22",
+        "lessonCount": 2,
+        "startTime": "2019-12-20 14:22:16",
+        "endTime": "2019-12-27 14:22:16",
+        "goodsName": "",
+        "realPrice": 0,
+        "status": 0
+      }
+    ]
+  }
+}

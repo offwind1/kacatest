@@ -1,0 +1,100 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "required": [
+    "code",
+    "msg",
+    "token"
+  ],
+  "properties": {
+    "code": {
+      "$id": "#/properties/code",
+      "type": "string",
+      "default": null
+    },
+    "data": {
+      "$id": "#/properties/data",
+      "type": "object",
+      "properties": {
+        "noUserList": {
+          "$id": "#/properties/data/properties/noUserList",
+          "type": "array"
+        },
+        "userList": {
+          "$id": "#/properties/data/properties/userList",
+          "type": "array",
+          "items": {
+            "$id": "#/properties/data/properties/userList/items",
+            "type": "object",
+            "required": [
+              "account",
+              "nickname",
+              "userId"
+            ],
+            "properties": {
+              "account": {
+                "$id": "#/properties/data/properties/userList/items/properties/account",
+                "type": "string",
+                "default": null
+              },
+              "courseList": {
+                "$id": "#/properties/data/properties/userList/items/properties/courseList",
+                "type": "array"
+              },
+              "lessonList": {
+                "$id": "#/properties/data/properties/userList/items/properties/lessonList",
+                "type": "array"
+              },
+              "nickname": {
+                "$id": "#/properties/data/properties/userList/items/properties/nickname",
+                "type": "string",
+                "default": null
+              },
+              "orgMsgList": {
+                "$id": "#/properties/data/properties/userList/items/properties/orgMsgList",
+                "type": "array"
+              },
+              "orgRelList": {
+                "$id": "#/properties/data/properties/userList/items/properties/orgRelList",
+                "type": "array"
+              },
+              "sex": {
+                "$id": "#/properties/data/properties/userList/items/properties/sex",
+                "type": "string"
+              },
+              "status": {
+                "$id": "#/properties/data/properties/userList/items/properties/status",
+                "type": "integer"
+              },
+              "userId": {
+                "$id": "#/properties/data/properties/userList/items/properties/userId",
+                "type": "string",
+                "default": null
+              },
+              "userIds": {
+                "$id": "#/properties/data/properties/userList/items/properties/userIds",
+                "type": "array"
+              },
+              "userOrgList": {
+                "$id": "#/properties/data/properties/userList/items/properties/userOrgList",
+                "type": "array"
+              }
+            }
+          }
+        }
+      }
+    },
+    "msg": {
+      "$id": "#/properties/msg",
+      "type": "string",
+      "default": null
+    },
+    "token": {
+      "$id": "#/properties/token",
+      "type": "string",
+      "default": null
+    }
+  }
+}
