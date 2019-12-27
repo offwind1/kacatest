@@ -6,6 +6,7 @@
         <classes>
             <class name="childrenTest.AddChildTestCase"></class>
             <class name="childrenTest.JoinClassTestCase"></class>
+            <class name="wrongbookTest.WrongbookTestCase"></class>
         </classes>
     </test>
 </suite>
