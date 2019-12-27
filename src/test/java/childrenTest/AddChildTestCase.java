@@ -1,5 +1,6 @@
 package childrenTest;
 
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ArrayUtil;
 import com.alibaba.fastjson.JSONObject;
 import com.mizholdings.kaca.Global;
@@ -8,6 +9,7 @@ import com.mizholdings.kaca.user.Parent;
 import com.mizholdings.util.Common;
 import com.mizholdings.util.SampleAssert;
 import io.qameta.allure.Step;
+import org.jsoup.helper.DataUtil;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -27,6 +29,14 @@ public class AddChildTestCase {
         JSONObject object = parent.getApp().parenthoodAgent().addChild(Common.getRandomNameCN(3));
         SampleAssert.assertResult("0", object);
         SampleAssert.assertMsg("添加成功", object);
+        vip_test(object.getJSONObject("data").getString("userId"));
+    }
+
+    @Step("vip测试")
+    public void vip_test(String childId) {
+        JSONObject object = parent.getApp().vipAgent().vipInfo(childId);
+        SampleAssert.assertEquals(object, "member", "1");
+        SampleAssert.assertEquals(object, "endTime", DateUtil.offsetDay(DateUtil.date(), 15).toString("yyyy-MM-dd"));
     }
 
     @Test(description = "添加子女")

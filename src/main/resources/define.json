@@ -1,21 +1,120 @@
 {
-  "answerListJson": [
-    {
-      "answerId": "1",
-      "userAnswer": "A"
-    },
-    {
-      "answerId": "2",
-      "userAnswer": "B"
-    },
-    {
-      "answerId": "3",
-      "userAnswer": "C"
-    }
-  ],
-  "answerCardId": 71,
-  "lessonId": "b29b6de9ba2f4888bf13e2c5a767708d",
-  "classroomId": "6e53217a19e5478c942b0f9a6109217e",
-  "orgId": 0,
-  "token": "E26397B5-3A22-4A5E-A8E9-BBA9C47F3991"
+  "result": 0,
+  "msg": "上传成功!",
+  "data": {
+    "pageId": 202057,
+    "questions": [
+      {
+        "num": 0,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1078.875x1083.2705849215374a468.5625a393.75",
+            "x": 111,
+            "y": 93,
+            "width": 256,
+            "height": 257,
+            "rotate": 0
+          }
+        ],
+        "mark": 0,
+        "type": 0
+      },
+      {
+        "num": 1,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1078.875x2403.84375a500.0625a1476.5625",
+            "x": 119,
+            "y": 351,
+            "width": 256,
+            "height": 572,
+            "rotate": 0
+          }
+        ],
+        "mark": 1,
+        "type": 0
+      },
+      {
+        "num": 2,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0/crop/!1027.6872596740723x86.625a1728.5626201629639a476.4375",
+            "x": 411,
+            "y": 113,
+            "width": 244,
+            "height": 20,
+            "rotate": 0
+          }
+        ],
+        "mark": 0,
+        "type": 0
+      },
+      {
+        "num": 3,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0/crop/!1256.3337295982706x409.5a1728.5626201629639a563.0625",
+            "x": 411,
+            "y": 134,
+            "width": 299,
+            "height": 97,
+            "rotate": 0
+          }
+        ],
+        "mark": 0,
+        "type": 0
+      },
+      {
+        "num": 4,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1256.3337295982706x559.125a1630.125a972.5625",
+            "x": 388,
+            "y": 231,
+            "width": 299,
+            "height": 133,
+            "rotate": 0
+          }
+        ],
+        "mark": 0,
+        "type": 0
+      },
+      {
+        "num": 5,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1256.3337295982706x514.0511434915788a1630.125a1531.6875",
+            "x": 388,
+            "y": 364,
+            "width": 299,
+            "height": 122,
+            "rotate": 0
+          }
+        ],
+        "mark": 0,
+        "type": 0
+      },
+      {
+        "num": 6,
+        "areas": [
+          {
+            "imgUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1256.3337295982706x1836.84375a1677.375a2043.5625",
+            "x": 399,
+            "y": 486,
+            "width": 299,
+            "height": 437,
+            "rotate": 0
+          }
+        ],
+        "mark": 0,
+        "type": 0
+      }
+    ],
+    "useTime": "nulls,图片处理:3247ms,总用时:3287ms",
+    "previewImage": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient",
+    "photoScore": 84,
+    "width": 3024,
+    "height": 4032,
+    "angle": 0
+  }
 }

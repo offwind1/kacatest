@@ -1,26 +1,330 @@
 {
-  "msg": "查询成功",
-  "result": 0,
-  "code": 0,
-  "data": {
-    "tsList": [
-      {
-        "buyCount": 1,
-        "goodsId": "bcf5ba2837a543dba2fc6c3b324898d5",
-        "typeName": "语文",
-        "orderStatus": 0,
-        "photoId": "http://images.mizholdings.com/face/default/06.gif",
-        "userName": "",
-        "userId": 0,
-        "goodsType": 0,
-        "lessonName": "接口测试生成课2019-12-20_14:22",
-        "lessonCount": 2,
-        "startTime": "2019-12-20 14:22:16",
-        "endTime": "2019-12-27 14:22:16",
-        "goodsName": "",
-        "realPrice": 0,
-        "status": 0
-      }
-    ]
-  }
+  "childId": 4727019111827456,
+  "subjectId": 2,
+  "pages": [
+    {
+      "pageId": 202045,
+      "questions": [
+        {
+          "page": 202045,
+          "num": 0,
+          "orderIndex": 4,
+          "x": 81,
+          "y": 122,
+          "width": 310,
+          "height": 56,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1306.5714148948614x236.25a342.5625a515.8125"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 4,
+          "mark": 1,
+          "choiceAnswer": "B"
+        },
+        {
+          "page": 202045,
+          "num": 1,
+          "orderIndex": 3,
+          "x": 80,
+          "y": 179,
+          "width": 310,
+          "height": 57,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1306.5714148948614x240.1875a338.625a752.0625"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 2,
+          "orderIndex": 7,
+          "x": 77,
+          "y": 236,
+          "width": 310,
+          "height": 105,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1306.5714148948614x441.0a326.8125a992.25"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 1,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 3,
+          "orderIndex": 6,
+          "x": 75,
+          "y": 341,
+          "width": 310,
+          "height": 96,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1306.5714148948614x405.5625a315.0a1433.25"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 4,
+          "mark": 0,
+          "choiceAnswer": "D"
+        },
+        {
+          "page": 202045,
+          "num": 4,
+          "orderIndex": 5,
+          "x": 72,
+          "y": 437,
+          "width": 310,
+          "height": 99,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1306.5714148948614x417.375a303.1875a1838.8125"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 4,
+          "mark": 0,
+          "choiceAnswer": "C"
+        },
+        {
+          "page": 202045,
+          "num": 5,
+          "x": 70,
+          "y": 537,
+          "width": 310,
+          "height": 38,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1306.5714148948614x161.4375a295.3125a2256.1875"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 1,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 6,
+          "x": 67,
+          "y": 575,
+          "width": 310,
+          "height": 42,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1306.5714148948614x177.1875a283.5a2417.625"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 7,
+          "x": 67,
+          "y": 617,
+          "width": 310,
+          "height": 303,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1306.5714148948614x1275.75a283.5a2594.8125"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 1,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 8,
+          "orderIndex": 1,
+          "x": 371,
+          "y": 108,
+          "width": 314,
+          "height": 260,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1322.3214148948614x1094.6320818116242a1559.25a456.75"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 1,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 9,
+          "orderIndex": 2,
+          "x": 372,
+          "y": 369,
+          "width": 314,
+          "height": 301,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1322.3214148948614x1267.899456285868a1563.1875a1551.375"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 1,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 10,
+          "x": 374,
+          "y": 671,
+          "width": 314,
+          "height": 137,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1322.3214148948614x578.8125a1571.0625a2819.25"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202045,
+          "num": 11,
+          "x": 374,
+          "y": 809,
+          "width": 314,
+          "height": 112,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0/crop/!1322.3214148948614x472.5a1571.0625a3398.0625"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        }
+      ]
+    },
+    {
+      "pageId": 202057,
+      "questions": [
+        {
+          "page": 202057,
+          "num": 0,
+          "x": 111,
+          "y": 93,
+          "width": 256,
+          "height": 257,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1078.875x1083.2705849215374a468.5625a393.75"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202057,
+          "num": 1,
+          "x": 119,
+          "y": 351,
+          "width": 256,
+          "height": 572,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1078.875x2403.84375a500.0625a1476.5625"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 1,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202057,
+          "num": 2,
+          "x": 411,
+          "y": 113,
+          "width": 244,
+          "height": 20,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0/crop/!1027.6872596740723x86.625a1728.5626201629639a476.4375"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202057,
+          "num": 3,
+          "orderIndex": 10,
+          "x": 411,
+          "y": 134,
+          "width": 299,
+          "height": 97,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0/crop/!1256.3337295982706x409.5a1728.5626201629639a563.0625"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202057,
+          "num": 4,
+          "orderIndex": 9,
+          "x": 388,
+          "y": 231,
+          "width": 299,
+          "height": 133,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1256.3337295982706x559.125a1630.125a972.5625"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202057,
+          "num": 5,
+          "orderIndex": 8,
+          "x": 388,
+          "y": 364,
+          "width": 299,
+          "height": 122,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1256.3337295982706x514.0511434915788a1630.125a1531.6875"
+          ],
+          "collect": 1,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        },
+        {
+          "page": 202057,
+          "num": 6,
+          "x": 399,
+          "y": 486,
+          "width": 299,
+          "height": 437,
+          "questionUrls": [
+            "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577417640753.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1256.3337295982706x1836.84375a1677.375a2043.5625"
+          ],
+          "collect": 0,
+          "isEditByUser": false,
+          "type": 0,
+          "mark": 0,
+          "choiceAnswer": ""
+        }
+      ]
+    }
+  ]
 }

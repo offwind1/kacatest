@@ -18,6 +18,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.everit.json.schema.ValidationException;
 import org.everit.json.schema.loader.SchemaLoader;
+import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import java.io.*;
@@ -128,7 +129,13 @@ public class Request {
         logger.info(map.toString());
 
         if ("POST".equals(method)) {
-            response = HttpRequest.post(url).header("Authorization", token).form(map).execute().body();
+            if (map instanceof com.alibaba.fastjson.JSONObject) {
+                System.out.println("map instanceof JSONObject");
+                com.alibaba.fastjson.JSONObject o = (com.alibaba.fastjson.JSONObject)map;
+                response = HttpRequest.post(url).header("Authorization", token).body(o.toJSONString()).execute().body();
+            } else {
+                response = HttpRequest.post(url).header("Authorization", token).form(map).execute().body();
+            }
         } else if ("GET".equals(method)) {
             response = HttpRequest.get(url).header("Authorization", token).form(map).execute().body();
         }

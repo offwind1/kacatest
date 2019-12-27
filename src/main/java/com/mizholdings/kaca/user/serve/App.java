@@ -25,6 +25,15 @@ public class App extends ServeBase {
         return (UserAgent) getAgent(Common.getMethodName());
     }
 
+    public VipAgent vipAgent() {
+        return (VipAgent) getAgent(Common.getMethodName());
+    }
 
+    public WrongbookAgent wrongbookAgent() {
+        return (WrongbookAgent) getAgent(Common.getMethodName());
+    }
 
+    public ExportAgent exportAgent() {
+        return (ExportAgent) getAgent(Common.getMethodName());
+    }
 }

@@ -1,6 +1,7 @@
 package com.mizholdings.kaca.agent.app;
 
 import com.alibaba.fastjson.JSONObject;
+import com.mizholdings.kaca.GlobalEnum;
 import com.mizholdings.util.Common;
 import com.mizholdings.util.MODBase;
 import com.mizholdings.util.Parameter;
@@ -20,10 +21,25 @@ public class SchoolAgent extends MODBase<SchoolAgent> {
                 .add("childId", childId));
     }
 
+    @Step("4.1.3 成员列表")
+    public JSONObject members(String schoolId, String classId, GlobalEnum.MemberType memberType) {
+        return exec(Common.getMethodName(), Parameter.creat()
+                .add("schoolId", schoolId)
+                .add("classId", classId)
+                .add("type", memberType.value())
+        );
+    }
+
     @Step("4.1.6 班级信息查询")
     public JSONObject classes(String userId) {
         return exec(Common.getMethodName(), Parameter.creat()
                 .add("userId", userId));
+    }
+
+    @Step("4.6.2 学校信息返回")
+    public JSONObject school_info_detail(String schoolId) {
+        return exec(Common.getMethodName(), Parameter.creat()
+                .add("schoolId", schoolId));
     }
 
 

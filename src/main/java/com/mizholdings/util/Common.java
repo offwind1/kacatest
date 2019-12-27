@@ -4,6 +4,7 @@ import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.mizholdings.kaca.GlobalEnum;
 
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
@@ -99,6 +100,54 @@ public class Common {
 
     public static int range(int a, int b) {
         return a + random.nextInt(b - a);
+    }
+
+
+    public static JSONObject pageData_to_CommitDate(JSONObject object) {
+        int pageId = object.getJSONObject("data").getIntValue("pageId");
+
+        List<JSONObject> list = object.getJSONObject("data").getJSONArray("questions").stream().map(i -> {
+            JSONObject o = (JSONObject) i;
+            JSONObject n = new JSONObject();
+
+            JSONArray a = new JSONArray();
+            a.add(o.getJSONArray("areas").getJSONObject(0).getString("imgUrl"));
+            System.out.println(a.toJSONString());
+
+            n.put("page", pageId);
+            n.put("num", o.getIntValue("num"));
+            n.put("orderIndex", o.getIntValue("num"));
+            n.put("x", o.getJSONArray("areas").getJSONObject(0).getIntValue("x"));
+            n.put("y", o.getJSONArray("areas").getJSONObject(0).getIntValue("y"));
+            n.put("width", o.getJSONArray("areas").getJSONObject(0).getIntValue("width"));
+            n.put("height", o.getJSONArray("areas").getJSONObject(0).getIntValue("height"));
+            n.put("questionUrls", a);
+            n.put("collect", 1);
+            n.put("isEditByUser", false);
+            n.put("type", 0);
+            n.put("mark", 1);
+            n.put("choiceAnswer", "");
+
+            return n;
+        }).collect(Collectors.toList());
+
+        JSONArray array = new JSONArray();
+        for (JSONObject o : list) {
+            array.add(o);
+        }
+
+        JSONArray pages = new JSONArray();
+        JSONObject page = new JSONObject();
+        page.put("pageId", pageId);
+        page.put("questions", array);
+        pages.add(page);
+
+        JSONObject data = new JSONObject();
+//        data.put("childId", childId);
+        data.put("subjectId", GlobalEnum.SubjectId.MATH.value());
+        data.put("pages", pages);
+
+        return data;
     }
 
 }

@@ -76,7 +76,11 @@ public class SampleAssert {
     }
 
     public static void assertResult0(JSONObject object) {
-        assert "0".equals(object.getString("result")) : "result:" + object.getString("result");
+//        assert "0".equals(object.getString("result")) : "result:" + object.getString("result");
+        if (ObjectUtil.notEqual("0", object.getString("result"))) {
+            throw new RuntimeException("result:" + object.getString("result"));
+        }
+
     }
 
 

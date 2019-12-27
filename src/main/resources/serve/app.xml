@@ -39,6 +39,27 @@
         <interface method="GET" name="4.1.4 超级管理员页面学生数据" url="/school/class/membersForSA" value="membersForSA"/>
         <interface method="POST" name="4.1.5 创建学生加入班级" url="/school/class/student/create" value="create"/>
         <interface method="GET" name="4.1.6 班级信息查询" url="/school/class/student/classes" value="classes"/>
+        <interface method="GET" name="4.6.2 学校信息返回" url="/school/info/detail" value="school_info_detail"/>
+    </interfaces>
+    <interfaces name="13 会员模块" value="vip">
+        <interface method="GET" name="13.1.1 会员信息" url="/vip/op/vipInfo" value="vipInfo"/>
+    </interfaces>
+    <interfaces name="11错题模块" value="wrongbook">
+        <interface method="GET" name="11.1.1 题目学科选择器" url="/wrongbook/question/selector" value="selector"/>
+        <interface method="GET" name="11.1.2 查看错题列表" url="/wrongbook/questions" value="questions"/>
+        <interface method="POST" name="11.1.3 删除错题" url="/wrongbook/question/delete" value="delete"/>
+        <interface method="GET" name="11.1.4 查看错题详情" url="/wrongbook/question/detail" value="detail"/>
+        <interface method="POST" name="11.1.5 题目匹配错误反馈" url="/wrongbook/question/feedback" value="feedback"/>
+        <interface method="GET" name="11.1.6 查看页面列表" url="/wrongbook/pages" value="pages"/>
+        <interface method="POST" name="11.1.7 学生掌握状态" url="/wrongbook/question/grasp" value="grasp"/>
+        <interface method="POST" name="11.2.1上传页面" url="/wrongbook/page" value="page"/>
+        <interface method="POST" name="11.2.2 提交错题" url="/wrongbook/commit" value="commit"/>
+        <interface method="GET" name="11.2.3提交报告" url="/wrongbook/commit/report" value="report"/>
+        <interface method="GET" name="11.3.3 作业报告" url="/wrongbook/report/queryChildReprotGz"
+                   value="queryChildReprotGz"/>
+    </interfaces>
+    <interfaces name="12导出模块" value="export">
+        <interface method="GET" name="12.2 一错一练选择错题导出" url="/export/pdf/makeSelectWB" value="makeSelectWB"/>
     </interfaces>
 
 

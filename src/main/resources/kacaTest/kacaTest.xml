@@ -4,8 +4,8 @@
 
     <test name="测试">
         <classes>
-            <class name="childrenTest.AddChildTestCase">
-            </class>
+            <class name="childrenTest.AddChildTestCase"></class>
+            <class name="childrenTest.JoinClassTestCase"></class>
         </classes>
     </test>
 </suite>

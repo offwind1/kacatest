@@ -45,10 +45,21 @@ public class MODBase<T extends MODBase> {
         if (executor instanceof User) {
             parameter.add("token", ((User) executor).getToken());
         }
-        return exec(funcName, parameter.getObjectMap());
+        return _exec(funcName, parameter.getObjectMap());
+    }
+
+    public JSONObject exec(String funcName, JSONObject object) {
+        if (executor instanceof User) {
+            object.put("token", ((User) executor).getToken());
+        }
+        return _exec(funcName, object);
     }
 
     public JSONObject exec(String funcName, Map<String, Object> map) {
+        return _exec(funcName, map);
+    }
+
+    public JSONObject _exec(String funcName, Map<String, Object> map) {
         Response response = Request.go(agentName, funcName, map);
         if (response.state) {
             logger.info(response.json().toJSONString());
