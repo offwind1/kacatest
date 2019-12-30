@@ -25,7 +25,7 @@ import java.io.*;
 import java.util.Map;
 
 public class Request {
-    protected final static Log logger = LogFactory.getLog(Request.class);
+    private final static Log logger = LogFactory.getLog(Request.class);
 
     private static final String SCHEMA = "schema";
 

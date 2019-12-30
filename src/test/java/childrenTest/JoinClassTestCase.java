@@ -36,7 +36,7 @@ public class JoinClassTestCase {
     }
 
     @Step("vip测试")
-    public void vip_test(String childId, String vipTime) {
+    private void vip_test(String childId, String vipTime) {
         JSONObject object = parent.getApp().vipAgent().vipInfo(childId);
         SampleAssert.assertEquals(object, "member", "2");
         SampleAssert.assertEquals(object, "endTime", vipTime);

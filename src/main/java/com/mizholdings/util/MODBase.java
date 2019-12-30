@@ -9,10 +9,10 @@ import org.apache.commons.logging.LogFactory;
 import java.util.Map;
 
 public class MODBase<T extends MODBase> {
-    protected User executor;
-    protected final static Log logger = LogFactory.getLog(MODBase.class);
+    private User executor;
+    private final static Log logger = LogFactory.getLog(MODBase.class);
     //    private String serve;
-    protected String agentName;
+    private String agentName;
 
     public MODBase() {
 //        String[] list = getClass().getPackage().getName().split("\\.");
@@ -42,14 +42,14 @@ public class MODBase<T extends MODBase> {
     }
 
     public JSONObject exec(String funcName, Parameter parameter) {
-        if (executor instanceof User) {
+        if (null != executor) {
             parameter.add("token", ((User) executor).getToken());
         }
         return _exec(funcName, parameter.getObjectMap());
     }
 
     public JSONObject exec(String funcName, JSONObject object) {
-        if (executor instanceof User) {
+        if (null != executor) {
             object.put("token", ((User) executor).getToken());
         }
         return _exec(funcName, object);
@@ -59,7 +59,7 @@ public class MODBase<T extends MODBase> {
         return _exec(funcName, map);
     }
 
-    public JSONObject _exec(String funcName, Map<String, Object> map) {
+    private JSONObject _exec(String funcName, Map<String, Object> map) {
         Response response = Request.go(agentName, funcName, map);
         if (response.state) {
             logger.info(response.json().toJSONString());

@@ -4,9 +4,9 @@
 
     <test name="测试">
         <classes>
-            <class name="childrenTest.AddChildTestCase"></class>
-            <class name="childrenTest.JoinClassTestCase"></class>
-            <class name="wrongbookTest.WrongbookTestCase"></class>
+            <class name="childrenTest.AddChildTestCase"/>
+            <class name="childrenTest.JoinClassTestCase"/>
+            <class name="wrongbookTest.WrongbookTestCase"/>
         </classes>
     </test>
 </suite>

@@ -54,8 +54,7 @@ public class Common {
     public static String getMethodName() {
         StackTraceElement[] stacktrace = Thread.currentThread().getStackTrace();
         StackTraceElement e = stacktrace[2];
-        String methodName = e.getMethodName();
-        return methodName;
+        return e.getMethodName();
     }
 
     public static String creatRandomString() {
@@ -132,9 +131,7 @@ public class Common {
         }).collect(Collectors.toList());
 
         JSONArray array = new JSONArray();
-        for (JSONObject o : list) {
-            array.add(o);
-        }
+        array.addAll(list);
 
         JSONArray pages = new JSONArray();
         JSONObject page = new JSONObject();

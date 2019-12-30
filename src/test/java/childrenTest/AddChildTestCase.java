@@ -25,7 +25,7 @@ public class AddChildTestCase {
     }
 
     @Step("添加子女")
-    public void addChild() {
+    private void addChild() {
         JSONObject object = parent.getApp().parenthoodAgent().addChild(Common.getRandomNameCN(3));
         SampleAssert.assertResult("0", object);
         SampleAssert.assertMsg("添加成功", object);
@@ -33,7 +33,7 @@ public class AddChildTestCase {
     }
 
     @Step("vip测试")
-    public void vip_test(String childId) {
+    private void vip_test(String childId) {
         JSONObject object = parent.getApp().vipAgent().vipInfo(childId);
         SampleAssert.assertEquals(object, "member", "1");
         SampleAssert.assertEquals(object, "endTime", DateUtil.offsetDay(DateUtil.date(), 15).toString("yyyy-MM-dd"));
