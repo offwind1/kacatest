@@ -11,12 +11,9 @@ import java.util.Map;
 public class MODBase<T extends MODBase> {
     private User executor;
     private final static Log logger = LogFactory.getLog(MODBase.class);
-    //    private String serve;
     private String agentName;
 
     public MODBase() {
-//        String[] list = getClass().getPackage().getName().split("\\.");
-//        serve = list[list.length - 1];
         String[] list = getClass().getName().replace("Agent", "").split("\\.");
         agentName = list[list.length - 1];
     }
@@ -44,6 +41,7 @@ public class MODBase<T extends MODBase> {
     public JSONObject exec(String funcName, Parameter parameter) {
         if (null != executor) {
             parameter.add("token", ((User) executor).getToken());
+            parameter.add("userType", ((User) executor).getUserType());
         }
         return _exec(funcName, parameter.getObjectMap());
     }
@@ -51,6 +49,7 @@ public class MODBase<T extends MODBase> {
     public JSONObject exec(String funcName, JSONObject object) {
         if (null != executor) {
             object.put("token", ((User) executor).getToken());
+            object.put("userType", ((User) executor).getUserType());
         }
         return _exec(funcName, object);
     }

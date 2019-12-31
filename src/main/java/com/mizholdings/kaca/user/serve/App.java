@@ -36,4 +36,8 @@ public class App extends ServeBase {
     public ExportAgent exportAgent() {
         return (ExportAgent) getAgent(Common.getMethodName());
     }
+
+    public ReportAgent reportAgent() {
+        return (ReportAgent) getAgent(Common.getMethodName());
+    }
 }

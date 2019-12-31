@@ -6,4 +6,5 @@ import lombok.Data;
 public abstract class User {
     protected String id = "0";
     protected String token;
+    private String userType = "3";
 }

@@ -26,11 +26,13 @@ public class WrongbookTestCase {
     public void update_test() {
         String url = "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient";
         JSONObject object = parent.getApp().wrongbookAgent().page(url, childId);
+        SampleAssert.assertResult0(object);
+
         object = parent.getApp().wrongbookAgent().commit(childId, object);
         SampleAssert.assertResult0(object);
     }
 
-    @Test(description = "查看错题详情")
+    @Test(description = "查看错题详情", dependsOnMethods = {"update_test"})
     public void wrong_detail_test() {
         JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
         List<String> list = Common.map(object.getJSONObject("data").getJSONArray("list"), "wrongId");
@@ -41,8 +43,17 @@ public class WrongbookTestCase {
         }
     }
 
-    @Test(description = "打印错题")
-    public void print_wrong_test() {
+    @Test(description = "打印错题", dependsOnMethods = {"wrong_detail_test"})
+    public void print_wrong_test_Need_not() {
+        JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
+        List<String> list = Common.map(object.getJSONObject("data").getJSONArray("list"), "wrongId");
+        String ques = String.join(",", list.subList(0, Math.min(list.size(), 4)));
+        object = parent.getApp().exportAgent().makeSelectWB(ques, childId, GlobalEnum.Is_need_question.NEED_NOT);
+        SampleAssert.assertResult0(object);
+    }
+
+    @Test(description = "打印错题+优选错题", dependsOnMethods = {"wrong_detail_test"})
+    public void print_wrong_test_need() {
         JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
         List<String> list = Common.map(object.getJSONObject("data").getJSONArray("list"), "wrongId");
         String ques = String.join(",", list.subList(0, Math.min(list.size(), 4)));
@@ -50,5 +61,29 @@ public class WrongbookTestCase {
         SampleAssert.assertResult0(object);
     }
 
+    @Test(description = "作业报告+一错一练知识点错题导出", dependsOnMethods = {"print_wrong_test_Need_not", "print_wrong_test_need"})
+    public void report_and_knowledge_export_test() {
+        JSONObject object = parent.getApp().wrongbookAgent().child_report(childId);
+        SampleAssert.assertResult0(object);
+        if (!object.getJSONObject("data").containsKey("knowledgeWrongList")) {
+            throw new RuntimeException("还未生成知识点");
+        }
+
+        String knowledgeIdsStr = Common.joinJsonArray(object.getJSONObject("data")
+                .getJSONArray("knowledgeWrongList"), "knowledgeId", ",");
+
+        object = parent.getApp().exportAgent().makeKnowledgeWB(knowledgeIdsStr, childId);
+        SampleAssert.assertResult0(object);
+    }
+
+
+    @Test(description = "删除错题", dependsOnMethods = {"report_and_knowledge_export_test"})
+    public void delete_question_test() {
+        JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
+        SampleAssert.assertResult0(object);
+
+        object = parent.getApp().wrongbookAgent().delete(childId, object);
+        SampleAssert.assertResult0(object);
+    }
 
 }

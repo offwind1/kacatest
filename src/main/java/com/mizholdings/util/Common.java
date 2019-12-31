@@ -5,6 +5,7 @@ import cn.hutool.core.util.ObjectUtil;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.mizholdings.kaca.GlobalEnum;
+import org.testng.annotations.Test;
 
 import java.io.UnsupportedEncodingException;
 import java.text.SimpleDateFormat;
@@ -13,7 +14,7 @@ import java.util.stream.Collectors;
 
 public class Common {
     private static Random random = new Random();
-    private static final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    private static final SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
     private static final String TEMP_STRING = "接口测试生成课";
 
     public static String getNowTime() {
@@ -28,6 +29,10 @@ public class Common {
         Calendar c = Calendar.getInstance();
         c.add(Calendar.DAY_OF_MONTH, days);
         return format.format(c.getTime());
+    }
+
+    public static String getYear() {
+        return String.valueOf(DateUtil.thisYear());
     }
 
     public static String getRandomNameCN(int len) {
@@ -102,49 +107,13 @@ public class Common {
     }
 
 
-    public static JSONObject pageData_to_CommitDate(JSONObject object) {
-        int pageId = object.getJSONObject("data").getIntValue("pageId");
-
-        List<JSONObject> list = object.getJSONObject("data").getJSONArray("questions").stream().map(i -> {
+    public static String joinJsonArray(JSONArray array, String key, String format) {
+        List<String> list = array.stream().map(i -> {
             JSONObject o = (JSONObject) i;
-            JSONObject n = new JSONObject();
-
-            JSONArray a = new JSONArray();
-            a.add(o.getJSONArray("areas").getJSONObject(0).getString("imgUrl"));
-            System.out.println(a.toJSONString());
-
-            n.put("page", pageId);
-            n.put("num", o.getIntValue("num"));
-            n.put("orderIndex", o.getIntValue("num"));
-            n.put("x", o.getJSONArray("areas").getJSONObject(0).getIntValue("x"));
-            n.put("y", o.getJSONArray("areas").getJSONObject(0).getIntValue("y"));
-            n.put("width", o.getJSONArray("areas").getJSONObject(0).getIntValue("width"));
-            n.put("height", o.getJSONArray("areas").getJSONObject(0).getIntValue("height"));
-            n.put("questionUrls", a);
-            n.put("collect", 1);
-            n.put("isEditByUser", false);
-            n.put("type", 0);
-            n.put("mark", 1);
-            n.put("choiceAnswer", "");
-
-            return n;
+            return o.getString(key);
         }).collect(Collectors.toList());
-
-        JSONArray array = new JSONArray();
-        array.addAll(list);
-
-        JSONArray pages = new JSONArray();
-        JSONObject page = new JSONObject();
-        page.put("pageId", pageId);
-        page.put("questions", array);
-        pages.add(page);
-
-        JSONObject data = new JSONObject();
-//        data.put("childId", childId);
-        data.put("subjectId", GlobalEnum.SubjectId.MATH.value());
-        data.put("pages", pages);
-
-        return data;
+        return String.join(format, list);
     }
+
 
 }

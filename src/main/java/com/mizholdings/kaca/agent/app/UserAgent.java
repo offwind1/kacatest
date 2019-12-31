@@ -10,12 +10,16 @@ public class UserAgent extends MODBase<UserAgent> {
         super(executor);
     }
 
-
     public JSONObject userInfo(String value, String key) {
         return exec(Common.getMethodName(), Parameter.creat()
                 .add(key, value));
     }
-    
+
+    public JSONObject userInfo() {
+        return exec(Common.getMethodName(), Parameter.creat());
+    }
+
+
     @Step("2.1.3 用户信息账户密码")
     public JSONObject userInfo_account(String account) {
         return userInfo(account, "account");

@@ -14,6 +14,7 @@ public class Parent {
 
     public Parent() {
         parent = Global.getParent();
+        parent.setUserType("2");
     }
 
     public Parent(String account, String password) {

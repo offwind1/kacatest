@@ -120,24 +120,28 @@ public class Request {
     private static Response doRequest(String url, String method, Map<String, Object> map, String model, String name) {
         String response = "";
         String token = (String) map.getOrDefault("token", "");
+        String userType = (String) map.getOrDefault("userType", "");
+
         map.remove("token");
+        map.remove("userType");
 
         logger.info(model + name);
         logger.info("URL:" + url);
         logger.info("Method:" + method);
-        logger.info("headers:" + token);
+        logger.info("token:" + token);
+        logger.info("userType:" + userType);
         logger.info(map.toString());
 
         if ("POST".equals(method)) {
             if (map instanceof com.alibaba.fastjson.JSONObject) {
                 System.out.println("map instanceof JSONObject");
-                com.alibaba.fastjson.JSONObject o = (com.alibaba.fastjson.JSONObject)map;
-                response = HttpRequest.post(url).header("Authorization", token).body(o.toJSONString()).execute().body();
+                com.alibaba.fastjson.JSONObject o = (com.alibaba.fastjson.JSONObject) map;
+                response = HttpRequest.post(url).header("Authorization", token).header("userType", userType).body(o.toJSONString()).execute().body();
             } else {
-                response = HttpRequest.post(url).header("Authorization", token).form(map).execute().body();
+                response = HttpRequest.post(url).header("Authorization", token).header("userType", userType).form(map).execute().body();
             }
         } else if ("GET".equals(method)) {
-            response = HttpRequest.get(url).header("Authorization", token).form(map).execute().body();
+            response = HttpRequest.get(url).header("Authorization", token).header("userType", userType).form(map).execute().body();
         }
 
         return new Response(response);

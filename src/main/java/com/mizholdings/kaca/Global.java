@@ -11,13 +11,18 @@ import java.io.*;
 import java.util.*;
 
 public class Global {
+    private final static Log logger = LogFactory.getLog(Global.class);
     private static Global global;
     public Properties properties;
-    private final static Log logger = LogFactory.getLog(Global.class);
 
     private UserBase userBase;
     private KacaUser parent;
     private KacaUser superAdmin;
+
+    public static class Value {
+        public final static String classId = getProperties("kaca.global.classId");
+        public final static String schoolId = getProperties("kaca.global.schoolId");
+    }
 
     private static Map<String, ElementMine> map = new HashMap<>();
 
@@ -73,11 +78,25 @@ public class Global {
         return init()._getParent();
     }
 
+    public static KacaUser getTeacher() {
+        return init()._getTeacher();
+    }
+
+
     public KacaUser _getParent() {
-        if (parent == null){
+        if (parent == null) {
             String account = properties.getProperty("kaca.parent.account");
             String password = properties.getProperty("kaca.parent.password");
             parent = KacaUser.kcct(account, password);
+        }
+        return parent;
+    }
+
+    public KacaUser _getTeacher() {
+        if (parent == null) {
+            String account = properties.getProperty("kaca.teacher.account");
+            String password = properties.getProperty("kaca.teacher.password");
+            parent = KacaUser.kcsj(account, password);
         }
         return parent;
     }

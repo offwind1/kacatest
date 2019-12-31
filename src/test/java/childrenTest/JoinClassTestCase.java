@@ -3,6 +3,7 @@ package childrenTest;
 import cn.hutool.core.date.DateField;
 import cn.hutool.core.date.DateUtil;
 import com.alibaba.fastjson.JSONObject;
+import com.mizholdings.kaca.Global;
 import com.mizholdings.kaca.GlobalEnum;
 import com.mizholdings.kaca.user.Parent;
 import com.mizholdings.util.Common;
@@ -16,11 +17,12 @@ import java.util.List;
 public class JoinClassTestCase {
 
     private Parent parent = new Parent();
-    private String classId = "1296";
-    private String schoolId = "9060";
+    private String classId = Global.Value.classId;
+    private String schoolId = Global.Value.schoolId;
 
     @BeforeClass
     public void beforeClass() {
+        parent.clearChildren();
         parent.addChildrenToFour();
     }
 
@@ -42,7 +44,7 @@ public class JoinClassTestCase {
         SampleAssert.assertEquals(object, "endTime", vipTime);
     }
 
-    @Test(description = "加入班级中有重名的学校")
+    @Test(description = "加入班级中有重名的学校", dependsOnMethods = {"join_class_test"})
     public void join_class_repeat_test() {
         //获得班级中的用户
         JSONObject object = parent.getApp().schoolAgent().members(schoolId, classId, GlobalEnum.MemberType.STUDENT);

@@ -9,4 +9,15 @@
             <class name="wrongbookTest.WrongbookTestCase"/>
         </classes>
     </test>
+    <test name="登录测试">
+        <classes>
+            <class name="webTest.loginTest.loginTest"/>
+        </classes>
+    </test>
+    <test name="后台测试">
+        <classes>
+            <class name="webTest.test_paper.paperTestCase"/>
+        </classes>
+    </test>
+
 </suite>

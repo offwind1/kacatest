@@ -119,7 +119,7 @@ public class AddChildTestCase {
     @Test(description = "扫码加入班级", dependsOnMethods = {"bind_test"})
     public void scan_join_class() {
         List<String> ids = parent.getChildrenIds();
-        JSONObject object = parent.getApp().schoolAgent().join("301", ids.get(0));
+        JSONObject object = parent.getApp().schoolAgent().join(Global.Value.classId, ids.get(0));
         SampleAssert.assertResult0(object);
     }
 }
