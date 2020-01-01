@@ -1,42 +1,885 @@
-[
-  {
-    "uqId": 213241,
-    "name": "峡藕葡",
-    "collect": 1,
-    "teacherCollect": 1,
-    "questionUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
-    "width": 314,
-    "height": 57,
-    "choiceAnswer": ""
-  },
-  {
-    "uqId": 213661,
-    "name": "仓无签",
-    "collect": 1,
-    "teacherCollect": 1,
-    "questionUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
-    "width": 314,
-    "height": 57,
-    "choiceAnswer": ""
-  },
-  {
-    "uqId": 213649,
-    "name": "事戍地",
-    "collect": 1,
-    "teacherCollect": 2,
-    "questionUrl": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
-    "width": 314,
-    "height": 57,
-    "choiceAnswer": ""
-  },
-  {
-    "uqId": 213673,
-    "name": "没弄过",
-    "collect": 1,
-    "teacherCollect": 2,
-    "questionUrl": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
-    "width": 314,
-    "height": 57,
-    "choiceAnswer": ""
+{
+  "result": 0,
+  "msg": "查询成功!",
+  "data": {
+    "classWrongScore": 1.0,
+    "totalNum": 180,
+    "questionScoreList": [
+      {
+        "uqId": "uqid-213241",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213661,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213649,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213241,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213673,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213241",
+        "wrongNum": 4,
+        "recommendId": 1991,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+        "knowledgeName": "根与系数的关系",
+        "parse": "利用根与系数的关系x\n<sub>1</sub>+x\n<sub>2</sub>=-\n<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 97%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.729em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.729em; top: -1.396em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.454em; padding-bottom: 0.261em;\">b</span></span></span><span class=\"dJ\" style=\"width: 0.729em; bottom: -0.721em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.197em; padding-bottom: 0.261em;\">a</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.29em; width: 0.729em;\"></span></span><span class=\"fF\" style=\"height: 2.116em; vertical-align: -0.721em;\"></span></span></span></span></span></span></span></span>，直接代入计算即可．",
+        "title": "已知方程x\n<sup>2</sup>+2x-1=0的两根分别为x\n<sub>1</sub>，x\n<sub>2</sub>，则x\n<sub>1</sub>+x\n<sub>2=\n <!--BA-->\n <div class=\"quizPutTag\"></div>\n <!--EA--></sub>．",
+        "type": 0,
+        "score": 0.0,
+        "answer": "解：∵方程x\n<sup>2</sup>+2x-1=0的两根分别为x\n<sub>1</sub>，x\n<sub>2</sub>，\n<br>∴x\n<sub>1</sub>+x\n<sub>2</sub>=-\n<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 97%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.729em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.729em; top: -1.396em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.454em; padding-bottom: 0.261em;\">b</span></span></span><span class=\"dJ\" style=\"width: 0.729em; bottom: -0.721em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.197em; padding-bottom: 0.261em;\">a</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.29em; width: 0.729em;\"></span></span><span class=\"fF\" style=\"height: 2.116em; vertical-align: -0.721em;\"></span></span></span></span></span></span></span></span>=-2，\n<br>故答案是：-2．",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213242",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213662,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+            "teacherCollect": 0,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213650,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+            "teacherCollect": 0,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213242,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+            "teacherCollect": 0,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213674,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+            "teacherCollect": 0,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213242",
+        "wrongNum": 0,
+        "recommendId": 1992,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+        "knowledgeName": "根与系数的关系",
+        "parse": "直接根据根与系数的关系求解．",
+        "title": "已知x\n<sub>1</sub>、x\n<sub>2</sub>是一元二次方程x\n<sup>2</sup>-4x+1=0的两个根，则x\n<sub>1</sub>•x\n<sub>2</sub>等于（　　） \n<table class=\"aft_option_wrapper\" style=\"width: 100%;\">\n <tbody class=\"measureRoot\">\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">A．-4</label></td>\n  </tr>\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">B．-1</label></td>\n  </tr>\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">C．1</label></td>\n  </tr>\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">D．4</label></td>\n  </tr>\n </tbody>\n</table>",
+        "type": 0,
+        "score": 1.0,
+        "answer": "解：根据题意得x\n<sub>1</sub>•x\n<sub>2</sub>=1．\n<br>故选C．",
+        "wrongScore": 0.0,
+        "isMarker": 0,
+        "isAllCollect": 0
+      },
+      {
+        "uqId": "uqid-213243",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213663,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213651,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213243,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213675,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213243",
+        "wrongNum": 4,
+        "recommendId": 24182,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+        "title": "<div class=\"aft_question_wrapper\">\n <p>已知α，β是一元二次方程<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span></span></span></span></span></span></span>＋x-2＝0的两个实数根，则x+β-αβ的值是（&nbsp;&nbsp;&nbsp;&nbsp;）</p>\n</div> \n<p>A. 3&nbsp;</p>\n<p>B. 1&nbsp;</p>\n<p>C. -1&nbsp;</p>\n<p>D. -3</p>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "<div class=\"aft_question_wrapper\">\n <p>B<br></p>\n</div>",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213244",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213664,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213652,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213244,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213676,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213244",
+        "wrongNum": 4,
+        "recommendId": 1994,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+        "knowledgeName": "解一元二次方程-因式分解法,根与系数的关系",
+        "parse": "首先根据根与系数的关系求得p，q的值，再进一步解方程即可．",
+        "title": "在解方程x\n<sup>2</sup>+px+q=0时，小张看错了p，解得方程的根为1与-3；小王看错了q，解得方程的根为4与-2．这个方程的根应该是什么？",
+        "type": 0,
+        "score": 0.0,
+        "answer": "解：根据根与系数的关系，\n<br>得q=-3×1=-3，p=-（-2+4）=-2．\n<br>则有方程x\n<sup>2</sup>-2x-3=0，\n<br>解得x=3或-1．",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213245",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213665,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213653,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213245,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213677,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213245",
+        "wrongNum": 4,
+        "recommendId": 1995,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+        "knowledgeName": "根与系数的关系",
+        "parse": "利用根与系数的关系表示出m+n与mn，已知等式左边利用多项式乘多项式法则变形，将m+n与mn的值代入即可求出a的值．",
+        "title": "已知m，n是关于x的一元二次方程x\n<sup>2</sup>-3x+a=0的两个解，若（m-1）（n-1）=-6，则a的值为（　　） \n<table class=\"aft_option_wrapper\" style=\"width: 100%;\">\n <tbody class=\"measureRoot\">\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">A．-10</label></td>\n  </tr>\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">B．4</label></td>\n  </tr>\n  <tr>\n   <td class=\"aft_option\">C．-4</td>\n  </tr>\n  <tr>\n   <td class=\"aft_option\"><label class=\"\">D．10</label></td>\n  </tr>\n </tbody>\n</table>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "解：根据题意得：m+n=3，mn=a，\n<br>∵（m-1）（n-1）=mn-（m+n）+1=-6，\n<br>∴a-3+1=-6，\n<br>解得：a=-4．\n<br>故选C",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213246",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213666,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213654,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213246,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213678,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213246",
+        "wrongNum": 4,
+        "recommendId": 21158,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+        "knowledgeName": "一元二次方程的解",
+        "title": "<div class=\"aft_question_wrapper\">\n <p>已知<i>x</i>＝－2是方程<i>x</i><sup>2</sup>＋m<i>x</i>－6＝0的一个根，则方程的另一个根是_____．</p>\n</div>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "<div class=\"aft_question_wrapper\">\n <p>设方程另一个根为<i>x</i><sub>1</sub>，根据题意得－2·<i>x</i><sub>1</sub>＝－6，所以<i>x</i><sub>1</sub>＝3故答案为3.</p>\n</div>",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213247",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213667,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213655,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213247,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213679,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213247",
+        "wrongNum": 4,
+        "recommendId": 2842,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+        "parse": "<div class=\"aft_question_wrapper\">\n <span class=\"afanti-latex\"><p>根据题意得<span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"fD bC\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dU bD\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span></span>，<span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span></span>，</p><p>所以<span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"eE bC\"><span class=\"cZ\" style=\"margin-right: -0.007em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.646em; padding-left: 0.084em; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.467em; padding-bottom: 0.571em;\">(</span></span><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"fD bC\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span><span class=\"eE\"><span class=\"cZ\"><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.467em; padding-bottom: 0.571em;\">)</span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"eE bD\"><span class=\"cZ\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.591em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">×</span></span></span></span><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.467em; padding-bottom: 0.571em;\">(</span></span><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.467em; padding-bottom: 0.571em;\">)</span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dU bD\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">8</span></span></span></span></span>．</p><p>故选：<span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.313em; padding-right: 0.045em;\">C</span></span></span></span></span>．</p></span>\n</div>",
+        "title": "<div class=\"aft_question_wrapper\">\n <span class=\"afanti-latex\"><p>若<span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span></span></span></span>，<span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span></span></span></span>是方程<span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dU bD\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">0</span></span></span></span></span>的两个实数根，则<span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">α</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"eE bC\"><span class=\"cZ\" style=\"margin-right: -0.007em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.467em; padding-bottom: 0.467em; padding-right: 0.007em;\">β</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.646em; padding-left: 0.084em; padding-right: 0.071em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span></span></span></span>的值为(&nbsp; )</p></span>\n</div> \n<span class=\"afanti-latex\">\n <table class=\"aft_option_wrapper\" style=\"width: 100%;\">\n  <tbody class=\"measureRoot\">\n   <tr>\n    <td class=\"aft_option\" data=\"A\"><i class=\"aft_option_value\">A.</i>\n     <div class=\"aft_option_content\">\n      <span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">10</span></span></span></span></span>\n     </div></td>\n   </tr>\n   <tr>\n    <td class=\"aft_option\" data=\"B\"><i class=\"aft_option_value\">B.</i>\n     <div class=\"aft_option_content\">\n      <span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">9</span></span></span></span></span>\n     </div></td>\n   </tr>\n   <tr>\n    <td class=\"aft_option\" data=\"C\"><i class=\"aft_option_value\">C.</i>\n     <div class=\"aft_option_content\">\n      <span class=\"cV\" style=\"display: none;\"></span>\n      <span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">8</span></span></span></span></span>\n     </div></td>\n   </tr>\n   <tr>\n    <td class=\"aft_option\" data=\"D\"><i class=\"aft_option_value\">D.</i>\n     <div class=\"aft_option_content\">\n      <span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">7</span></span></span></span></span>\n     </div></td>\n   </tr>\n  </tbody>\n </table></span>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "<div class=\"aft_question_wrapper\">\n <span class=\"afanti-latex\">C</span>\n</div>",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213248",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213668,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213656,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213248,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213680,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213248",
+        "wrongNum": 4,
+        "recommendId": 1998,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+        "parse": "<p><a class=\"keyword\" href=\"【考点提示】\" style=\"pointer-events: none;text-decoration:none;color:#505F65\">【考点提示】</a> </p>\n<p>本题主要考查一元二次方程的解法，可以结合公式法的步骤进行解答；</p>\n<div style=\"page-break-after:always\">\n <span style=\"display:none\"> </span>\n</div>\n<p><a class=\"keyword\" href=\"【解题方法提示】\" style=\"pointer-events: none;text-decoration:none;color:#505F65\">【解题方法提示】</a> </p>\n<p>对于（1）先确定各项系数，a，b，c的值，求出判别式的值，结合求根公式x=<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 7.132em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 7.132em; top: -1.813em;\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.436em;\">−</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">±</span></span><span class=\"eC bC\"><span class=\"dB\" style=\"padding-top: 0.045em;\"><span class=\"fA\"><span class=\"dD aO\" style=\"padding-top: 0.622em; padding-bottom: 0.622em;\">√</span></span><span class=\"dB\" style=\"padding-top: 0.067em; border-top-width: 1.2px; border-top-style: solid;\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.631em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span></span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.436em;\">−</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">4</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.189em; padding-bottom: 0.313em;\">a</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">c</span></span></span></span></span></span></span></span><span class=\"dJ\" style=\"width: 7.132em; bottom: -0.729em;\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.189em; padding-bottom: 0.313em;\">a</span></span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 7.132em;\"></span></span><span class=\"fF\" style=\"height: 2.543em; vertical-align: -0.729em;\"></span></span></span></span></span></span></span></span>，便可以得到方程的解；</p>\n<div style=\"page-break-after:always\">\n <span style=\"display:none\"> </span>\n</div>\n<p>对于（2）根据（1）的步骤，结合判别式小于0时，方程无数根解答即可.</p>",
+        "title": "<p>用公式法解下列方程：</p> \n<p>（1）3x<sup>2</sup>-2x-1=0；</p> \n<p>（2）x<sup>2</sup>-3x+4=0.</p>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "<p>解：（1）a=3，b=-2，c=-1，</p> \n<p>b<sup>2</sup>-4ac=(-2)<sup>2</sup>-4×3×(-1)</p> \n<p>=4+12</p> \n<p>=16</p> \n<p>x=<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 7.132em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 7.132em; top: -1.813em;\"><span class=\"eA\"><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.436em;\">−</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">±</span></span><span class=\"eC bC\"><span class=\"dB\" style=\"padding-top: 0.045em;\"><span class=\"fA\"><span class=\"dD aO\" style=\"padding-top: 0.622em; padding-bottom: 0.622em;\">√</span></span><span class=\"dB\" style=\"padding-top: 0.067em; border-top-width: 1.2px; border-top-style: solid;\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.631em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span></span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.436em;\">−</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">4</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.189em; padding-bottom: 0.313em;\">a</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">c</span></span></span></span></span></span></span></span><span class=\"dJ\" style=\"width: 7.132em; bottom: -0.729em;\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.189em; padding-bottom: 0.313em;\">a</span></span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 7.132em;\"></span></span><span class=\"fF\" style=\"height: 2.543em; vertical-align: -0.729em;\"></span></span></span></span></span></span></span></span>=<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 3.755em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 3.755em; top: -1.613em;\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">±</span></span><span class=\"eC bC\"><span class=\"dB\" style=\"padding-top: 0.045em;\"><span class=\"fA\"><span class=\"dD aH\" style=\"padding-top: 0.498em; padding-bottom: 0.56em;\">√</span></span><span class=\"dB\" style=\"padding-top: 0.119em; border-top-width: 1.2px; border-top-style: solid;\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">16</span></span></span></span></span></span></span></span><span class=\"dJ\" style=\"width: 3.755em; bottom: -0.741em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">6</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 3.755em;\"></span></span><span class=\"fF\" style=\"height: 2.355em; vertical-align: -0.741em;\"></span></span></span></span></span></span></span></span>=<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 2.422em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 2.422em; top: -1.368em;\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">1</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">±</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span></span></span><span class=\"dJ\" style=\"width: 2.422em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 2.422em;\"></span></span><span class=\"fF\" style=\"height: 2.108em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span>，</p> \n<p>x<sub>1</sub>=1，x<sub>2</sub>=-<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">1</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.108em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span>.</p> \n<p>（2）a=1，b=-3，c=4，</p> \n<p>b<sup>2</sup>-4ac=(-3)<sup>2</sup>-4×1×4</p> \n<p>=9-16</p> \n<p>=-7，</p> \n<p>∴方程无实数根.</p>",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213249",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213669,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213657,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213249,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213681,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213249",
+        "wrongNum": 4,
+        "recommendId": 1999,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+        "knowledgeName": "根与系数的关系",
+        "parse": "（1）根据x\n<sub>1</sub>，x\n<sub>2</sub>是一元二次方程ax\n<sup>2</sup>+bx+c=0（a≠0）的两根时，则x\n<sub>1</sub>+x\n<sub>2</sub>=-\n<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.729em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.729em; top: -1.396em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span></span><span class=\"dJ\" style=\"width: 0.729em; bottom: -0.721em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.189em; padding-bottom: 0.313em;\">a</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.729em;\"></span></span><span class=\"fF\" style=\"height: 2.116em; vertical-align: -0.721em;\"></span></span></span></span></span></span></span></span>，x\n<sub>1</sub>x\n<sub>2</sub>=\n<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.729em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.729em; top: -1.144em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">c</span></span></span><span class=\"dJ\" style=\"width: 0.729em; bottom: -0.721em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.189em; padding-bottom: 0.313em;\">a</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.729em;\"></span></span><span class=\"fF\" style=\"height: 1.864em; vertical-align: -0.721em;\"></span></span></span></span></span></span></span></span>，代值计算即可；\n<br>（2）先根据一元二次方程的解的定义得到a\n<sup>2</sup>+a-2016=0，即a\n<sup>2</sup>=-a+2016，则a\n<sup>2</sup>+2a+b可化简为a+b+2016，再根据根与系数的关系得a+b=-1，然后利用整体代入的方法计算．",
+        "title": "设a，b是方程x\n<sup>2</sup>+x-2016=0的两个不相等的实数根．\n<br>（1）a+b=\n<div class=\"aft_put\">\n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</div>；ab=\n<div class=\"aft_put\">\n &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\n</div>；\n<br>（2）求代数式a\n<sup>2</sup>+2a+b的值．",
+        "type": 0,
+        "score": 0.0,
+        "answer": "解：（1）∵a，b是方程x\n<sup>2</sup>+x-2016=0的两个不相等的实数根\n<br>∴a+b=-1；ab=-2016；\n<br>故答案为：-1．-2016；\n<br>\n<br>（2）∵a是方程x\n<sup>2</sup>+x-2016=0的实数根，\n<br>∴a\n<sup>2</sup>+a-2016=0，\n<br>∴a\n<sup>2</sup>=-a+2016，\n<br>∴a\n<sup>2</sup>+2a+b=-a+2016+2a+b=a+b+2016，\n<br>∵a、b是方程x\n<sup>2</sup>+x-2016=0的两个实数根，\n<br>∴a+b=-1，\n<br>∴a\n<sup>2</sup>+2a+b=-1+2016=2015．",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213250",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213670,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213658,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213250,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213682,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213250",
+        "wrongNum": 4,
+        "recommendId": 2000,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+        "knowledgeName": "根的判别式",
+        "parse": "（1）设方程的另一个根为x，则由根与系数的关系得：x+1=-a，x•1=a-2，求出即可；\n<br>（2）写出根的判别式，配方后得到完全平方式，进行解答．",
+        "title": "已知关于x的方程x\n<sup>2</sup>+ax+a-2=0．\n<br>（1）当该方程的一个根为1时，求a的值及该方程的另一根；\n<br>（2）求证：不论a取何实数，该方程都有两个不相等的实数根．",
+        "type": 0,
+        "score": 0.0,
+        "answer": "解：（1）设方程的另一个根为x，\n<br>则由根与系数的关系得：x+1=-a，x•1=a-2，\n<br>解得：x=-\n<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 97%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.367em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">3</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.727em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.325em;\">2</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.29em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.094em; vertical-align: -0.727em;\"></span></span></span></span></span></span></span></span>，a=\n<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 97%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.325em;\">1</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.727em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.325em;\">2</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.29em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.095em; vertical-align: -0.727em;\"></span></span></span></span></span></span></span></span>，\n<br>即a=\n<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 97%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.325em;\">1</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.727em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.325em;\">2</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.29em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.095em; vertical-align: -0.727em;\"></span></span></span></span></span></span></span></span>，方程的另一个根为-\n<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 97%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.367em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.39em;\">3</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.727em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.39em; padding-bottom: 0.325em;\">2</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.29em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.094em; vertical-align: -0.727em;\"></span></span></span></span></span></span></span></span>；\n<br>\n<br>（2）∵△=a\n<sup>2</sup>-4（a-2）=a\n<sup>2</sup>-4a+8=a\n<sup>2</sup>-4a+4+4=（a-2）\n<sup>2</sup>+4＞0，\n<br>∴不论a取何实数，该方程都有两个不相等的实数根．",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213251",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213671,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213659,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213251,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213683,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213251",
+        "wrongNum": 4,
+        "recommendId": 24197,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+        "title": "<div class=\"aft_question_wrapper\">\n <p>已知关于<span class=\"afanti-latex\"><span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span></span></span></span></span>的一元二次方程<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">m</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span></span></span></span><span class=\"eZ\" style=\"font-size: 70.7%; vertical-align: 0.513em; padding-left: 0px; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">−</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.467em; padding-bottom: 0.571em;\">(</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">m</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"dU bC\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span><span class=\"dV\"><span class=\"dD aH\" style=\"padding-top: 0.467em; padding-bottom: 0.571em;\">)</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"eD bC\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 1.078em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 1.078em; top: -1.144em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">m</span></span></span><span class=\"dJ\" style=\"width: 1.078em; bottom: -0.711em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.416em; padding-bottom: 0.364em;\">4</span></span></span><span class=\"dN\" style=\"border-bottom: 1.3px solid; top: -0.282em; width: 1.078em;\"></span></span><span class=\"fF\" style=\"height: 1.854em; vertical-align: -0.711em;\"></span></span></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dU bD\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">0</span></span></span></span></span></span>有两个不相等的实数根<span class=\"afanti-latex\"><span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">1</span></span></span></span></span></span>,<span class=\"afanti-latex\"><span class=\"dG cT \" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span></span></span>.若<span class=\"afanti-latex\"><span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 1.272em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 1.272em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">1</span></span></span><span class=\"dJ\" style=\"width: 1.272em; bottom: -0.722em;\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">1</span></span></span></span><span class=\"dN\" style=\"border-bottom: 1.3px solid; top: -0.282em; width: 1.272em;\"></span></span><span class=\"fF\" style=\"height: 2.089em; vertical-align: -0.722em;\"></span></span></span></span><span class=\"dV bC\"><span class=\"dD aH\" style=\"padding-top: 0.313em; padding-bottom: 0.416em;\">+</span></span><span class=\"eD bC\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 1.272em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 1.272em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">1</span></span></span><span class=\"dJ\" style=\"width: 1.272em; bottom: -0.722em;\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">x</span></span><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.364em; padding-bottom: 0.364em;\">2</span></span></span></span><span class=\"dN\" style=\"border-bottom: 1.3px solid; top: -0.282em; width: 1.272em;\"></span></span><span class=\"fF\" style=\"height: 2.089em; vertical-align: -0.722em;\"></span></span></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.106em; padding-bottom: 0.313em;\">=</span></span><span class=\"dU bD\"><span class=\"dD aH\" style=\"padding-top: 0.416em; padding-bottom: 0.364em;\">4</span></span><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">m</span></span></span></span></span></span>,则<span class=\"afanti-latex\"><span class=\"cV\" style=\"display: none;\"></span><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 121%;\"><span class=\"dO\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.209em; padding-bottom: 0.313em;\">m</span></span></span></span></span></span>的值是&nbsp; （&nbsp; ）</p>\n</div> \n<p>A. 2&nbsp;</p>\n<p>B. -1&nbsp;</p>\n<p>C. 2或-1&nbsp;</p>\n<p>D. 不存在</p>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "<div class=\"aft_question_wrapper\">\n <p>A</p>\n</div>",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      },
+      {
+        "uqId": "uqid-213252",
+        "userAnswerList": [
+          {
+            "result": 0,
+            "uqId": 213672,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336",
+            "teacherCollect": 1,
+            "userName": "仓无签",
+            "userId": "4733776637560832",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213660,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336",
+            "teacherCollect": 1,
+            "userName": "事戍地",
+            "userId": "4733769886894080",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213252,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336",
+            "teacherCollect": 1,
+            "userName": "峡藕葡",
+            "userId": "4732243717228544",
+            "studentCollect": 1
+          },
+          {
+            "result": 0,
+            "uqId": 213684,
+            "answer": "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336",
+            "teacherCollect": 1,
+            "userName": "没弄过",
+            "userId": "4732300838094848",
+            "studentCollect": 1
+          }
+        ],
+        "questionId": "213252",
+        "wrongNum": 4,
+        "recommendId": 2002,
+        "question": "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336",
+        "knowledgeName": "根与系数的关系",
+        "title": "<p>已知一个一元二次方程的二次项系数是3.它的两个根分别是<img src=\"http://qimg.afanti100.com/data/image/question_image/38/46df18076a4d60da2dcde1db42c9ff26.jpg\" style=\"vertical-align: middle;\">,1写出这个方程.</p>",
+        "type": 0,
+        "score": 0.0,
+        "answer": "<p>解：<br></p>\n<p>3x²+bx+c=0</p>\n<p>则<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">x</span></span></span></span></span><span class=\"eY\" style=\"font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">1</span></span></span></span></span></span></span></span></span></span>+<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">x</span></span></span></span></span><span class=\"eY\" style=\"font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span></span></span></span></span></span></span></span></span>=-<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.396em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.136em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span>&nbsp; &nbsp;&nbsp;<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">x</span></span></span></span></span><span class=\"eY\" style=\"font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">1</span></span></span></span></span></span><span class=\"eE\"><span class=\"cZ\"><span class=\"fD\"><span class=\"eA\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">x</span></span></span></span></span><span class=\"eY\" style=\"font-size: 70.7%; vertical-align: -0.212em; padding-right: 0.071em;\"><span class=\"fD\"><span class=\"eA\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">2</span></span></span></span></span></span></span></span></span></span>=<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.144em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">c</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 1.884em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span></p>\n<p>所以-<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.396em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.498em; padding-bottom: 0.313em;\">b</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.136em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span>=<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">1</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.108em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span>+1=<span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.379em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">4</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.119em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span> &nbsp; &nbsp;解得b=-4</p>\n<p><span class=\"afanti-latex\"><span class=\"dG cT\" tabindex=\"0\" style=\"font-size: 101%;\"><span class=\"dO\" role=\"math\"><span class=\"eA\"><span class=\"eD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.144em;\"><span class=\"dS\"><span class=\"dD aJ\" style=\"padding-top: 0.251em; padding-bottom: 0.313em;\">c</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 1.884em; vertical-align: -0.74em;\"></span></span><span class=\"dV bD\"><span class=\"dD aH\" style=\"padding-top: 0.065em; padding-bottom: 0.313em;\">=</span></span><span class=\"eD bD\"><span class=\"eA\"><span class=\"dR\"><span class=\"dB bE\" style=\"width: 0.7em; padding: 0px 0.12em;\"><span class=\"eN\" style=\"width: 0.7em; top: -1.368em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.313em;\">1</span></span></span><span class=\"dJ\" style=\"width: 0.7em; bottom: -0.74em;\"><span class=\"dU\"><span class=\"dD aH\" style=\"padding-top: 0.374em; padding-bottom: 0.374em;\">3</span></span></span><span class=\"dN\" style=\"border-bottom-width: 1.3px; border-bottom-style: solid; top: -0.289em; width: 0.7em;\"></span></span><span class=\"fF\" style=\"height: 2.108em; vertical-align: -0.74em;\"></span></span></span></span></span></span></span></span></span></span>&nbsp; &nbsp; 解得c=1</p>\n<p>所以3x²-4x+1=0</p>\n<p><br></p>",
+        "wrongScore": 1.0,
+        "isMarker": 1,
+        "isAllCollect": 1
+      }
+    ],
+    "userScoreList": [
+      {
+        "score": 0.0,
+        "wrongScore": 1.0,
+        "teacherCollect": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "joinTime": "12-30 09:14",
+        "userName": "峡藕葡",
+        "userId": "4732243717228544",
+        "imageList": [
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336"
+        ],
+        "studentCollect": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "score": 0.0,
+        "wrongScore": 1.0,
+        "teacherCollect": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "joinTime": "12-31 11:22",
+        "userName": "没弄过",
+        "userId": "4732300838094848",
+        "imageList": [
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4732300838094848.4644792604280832.1577762539199.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336"
+        ],
+        "studentCollect": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "score": 0.0,
+        "wrongScore": 1.0,
+        "teacherCollect": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "joinTime": "12-31 11:03",
+        "userName": "事戍地",
+        "userId": "4733769886894080",
+        "imageList": [
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336"
+        ],
+        "studentCollect": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "score": 0.0,
+        "wrongScore": 1.0,
+        "teacherCollect": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "joinTime": "12-31 11:11",
+        "userName": "仓无签",
+        "userId": "4733776637560832",
+        "imageList": [
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-1.6365814208984375/crop/!1293.45540669x212.419155595a314.794155595a564.011985031",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.0/crop/!1321.2237510965736x236.25a338.625a756.0",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x437.0625a326.8125a992.25",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a315.0a1429.3125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x413.4375a303.1875a1842.75",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x169.3125a299.25a2256.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1321.2237510965736x173.25a287.4375a2425.5",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.5729387402534485/crop/!1310.44321528x1261.03196418a276.656964183a2581.4109045",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1094.6533269716033a1559.25a452.8125",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x1275.7560763744177a1567.125a1547.4375",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/-0.0/crop/!1329.0119754164857x574.8884844308941a1571.0625a2823.1875",
+          "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient/gravity/NorthWest/rotate/0.19226700067520142/crop/!1322.68542504x466.173449625a1568.67344962a3396.57202336"
+        ],
+        "studentCollect": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      }
+    ],
+    "unCommitId": [
+      4726907073693696,
+      4728087664789504,
+      4732234859431936,
+      4732236722980864,
+      4732378241763328,
+      4733646562920448,
+      4733646629308416,
+      4734121350301696,
+      4734121438545920,
+      4735061174110208,
+      4735061250443264
+    ],
+    "classWrongScoreRate": 0.0,
+    "commit": 4,
+    "collectNum": 44,
+    "allQuestionNum": 48,
+    "unCommit": 11,
+    "commitName": [
+      "峡藕葡",
+      "没弄过",
+      "事戍地",
+      "仓无签"
+    ],
+    "unCommitName": [
+      "壶氰荧",
+      "夺仁脏",
+      "愚浆睦",
+      "纽疟侧",
+      "狗年喵班(语文)",
+      "低觅特",
+      "蛹示秃",
+      "百撅影",
+      "硕挟栖",
+      "印褪澎",
+      "犯参赏"
+    ]
   }
-]
+}

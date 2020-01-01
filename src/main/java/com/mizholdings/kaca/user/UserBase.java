@@ -43,7 +43,7 @@ public class UserBase extends User implements appInterface {
         return this.object.getJSONObject("data").getString("nickname");
     }
 
-//    public String getUserType() {
-//        return this.object.getJSONObject("data").getString("userType");
-//    }
+    public String getAccount() {
+        return account;
+    }
 }

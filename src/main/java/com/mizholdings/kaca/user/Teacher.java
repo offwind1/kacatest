@@ -30,4 +30,17 @@ public class Teacher {
         return new AuthAgent("kcsj");
     }
 
+    public String getUserId() {
+        return teacher.getId();
+    }
+
+    public String getNickname() {
+        return teacher.getNickname();
+    }
+
+    public String getAccount() {
+        return teacher.getAccount();
+    }
+
+
 }

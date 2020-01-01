@@ -30,4 +30,9 @@ public class UserAgent extends MODBase<UserAgent> {
         return userInfo(userId, "userId");
     }
 
+    @Step("2.2.1 修改用户信息")
+    public JSONObject edit_userInfo(JSONObject parameter) {
+        return exec(Common.getMethodName(), parameter);
+    }
+
 }

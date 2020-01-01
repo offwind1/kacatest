@@ -32,7 +32,8 @@ public class Common {
     }
 
     public static String getYear() {
-        return String.valueOf(DateUtil.thisYear());
+//        return String.valueOf(DateUtil.thisYear());
+        return "2019";
     }
 
     public static String getRandomNameCN(int len) {

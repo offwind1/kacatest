@@ -22,5 +22,10 @@
             <class name="webTest.test_paper.serviceDataTestCase"/>
         </classes>
     </test>
+    <test name="个人信息">
+        <classes>
+            <class name="webTest.userTest.userTestCase"/>
+        </classes>
+    </test>
 
 </suite>

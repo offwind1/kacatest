@@ -75,6 +75,15 @@ public class SchoolAgent extends MODBase<SchoolAgent> {
         );
     }
 
+    @Step("4.5.4 任职为班主任的班级和学科列表（班主任和校管）")
+    public JSONObject teaching_classes(String schoolId) {
+        return exec(Common.getMethodName(), Parameter.creat()
+                .add("schoolId", schoolId)
+                .add("year", Common.getYear())
+        );
+    }
+
+
     @Step("4.6.2 学校信息返回")
     public JSONObject school_info_detail(String schoolId) {
         return exec(Common.getMethodName(), Parameter.creat()
