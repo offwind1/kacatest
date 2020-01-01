@@ -70,7 +70,8 @@ public class Common {
     public static JSONObject filder(JSONArray array, String key, String tag) {
         List<Object> list = array.stream().filter(i -> {
             JSONObject o = (JSONObject) i;
-            return key.equals(o.getString(tag));
+            String v = o.getString(key);
+            return tag.equals(v);
         }).collect(Collectors.toList());
 
         if (list.size() > 0) {

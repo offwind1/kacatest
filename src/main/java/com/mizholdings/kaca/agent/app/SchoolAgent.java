@@ -34,6 +34,24 @@ public class SchoolAgent extends MODBase<SchoolAgent> {
         );
     }
 
+    @Step("4.1.3 成员列表")
+    public JSONObject members(String schoolId, GlobalEnum.MemberType type) {
+        return exec(Common.getMethodName(), Parameter.creat()
+                .add("schoolId", schoolId)
+                .add("page", "1")
+                .add("pageSize", "99")
+                .add("type", type.value())
+        );
+    }
+
+    @Step("4.3.1教师星标收藏")
+    public JSONObject teacher_collect(String uqId, GlobalEnum.Collect_type type) {
+        return exec(Common.getMethodName(), Parameter.creat()
+                .add("uqId", uqId)
+                .add("type", type.value())
+        );
+    }
+
     @Step("4.4.1 学校可用学年")
     public JSONObject school_years(String schoolId) {
         return exec(Common.getMethodName(), Parameter.creat()

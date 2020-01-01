@@ -14,15 +14,15 @@ import java.util.stream.Collectors;
 
 public class WrongbookTestCase {
     private Parent parent = new Parent();
-    private String childId = parent.current();
+    private String childId;//= parent.current();
 
     @BeforeClass
     public void beforeClass() {
         parent.addChildrenToFour();
+        childId = parent.current();
     }
 
-
-    @Test(description = "上传图片+提交错题")
+    @Test(description = "上传图片+提交错题", priority = -1)
     public void update_test() {
         String url = "https://homework.mizholdings.com/kacha/xcx/page/4727019111827456.4644792604280832.1577416843855.jpg?imageMogr2/auto-orient";
         JSONObject object = parent.getApp().wrongbookAgent().page(url, childId);
@@ -32,7 +32,7 @@ public class WrongbookTestCase {
         SampleAssert.assertResult0(object);
     }
 
-    @Test(description = "查看错题详情", dependsOnMethods = {"update_test"})
+    @Test(description = "查看错题详情")
     public void wrong_detail_test() {
         JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
         List<String> list = Common.map(object.getJSONObject("data").getJSONArray("list"), "wrongId");
@@ -43,7 +43,7 @@ public class WrongbookTestCase {
         }
     }
 
-    @Test(description = "打印错题", dependsOnMethods = {"wrong_detail_test"})
+    @Test(description = "打印错题")
     public void print_wrong_test_Need_not() {
         JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
         List<String> list = Common.map(object.getJSONObject("data").getJSONArray("list"), "wrongId");
@@ -52,7 +52,7 @@ public class WrongbookTestCase {
         SampleAssert.assertResult0(object);
     }
 
-    @Test(description = "打印错题+优选错题", dependsOnMethods = {"wrong_detail_test"})
+    @Test(description = "打印错题+优选错题")
     public void print_wrong_test_need() {
         JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
         List<String> list = Common.map(object.getJSONObject("data").getJSONArray("list"), "wrongId");
@@ -61,7 +61,7 @@ public class WrongbookTestCase {
         SampleAssert.assertResult0(object);
     }
 
-    @Test(description = "作业报告+一错一练知识点错题导出", dependsOnMethods = {"print_wrong_test_Need_not", "print_wrong_test_need"})
+    @Test(description = "作业报告+一错一练知识点错题导出")
     public void report_and_knowledge_export_test() {
         JSONObject object = parent.getApp().wrongbookAgent().child_report(childId);
         SampleAssert.assertResult0(object);
@@ -77,7 +77,7 @@ public class WrongbookTestCase {
     }
 
 
-    @Test(description = "删除错题", dependsOnMethods = {"report_and_knowledge_export_test"})
+    @Test(description = "删除错题", priority = 1)
     public void delete_question_test() {
         JSONObject object = parent.getApp().wrongbookAgent().questions(childId, GlobalEnum.SubjectId.MATH);
         SampleAssert.assertResult0(object);

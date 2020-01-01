@@ -104,11 +104,29 @@
     <interfaces name="18 数据报告模块" value="report">
         <interface method="GET" name="18.2.3 查询月份列表" url="/report/db/qrMonthList" value="month_list"/>
         <interface method="GET" name="18.2.4 查询数据报告详情" url="/report/db/qrDetail" value="question_detail"/>
+        <interface method="GET" name="18.2.9 查询报告学生统计" url="/report/db/qrStudentCount" value="query_student"/>
+        <interface method="GET" name="18.2.11 查询校级报告" url="/report/db/schoolDataReport" value="school_data_report"/>
+        <interface method="GET" name="18.2.12 查询班级报告" url="/report/db/classDataReport" value="class_data_report"/>
+        <interface method="GET" name="18.2.13 查询时间戳" url="/report/db/timeStamp" value="time_stamp"/>
+        <interface method="GET" name="18.2.18 获取百度搜索链接" url="/report/db/searchLink" value="search_link"/>
         <interface method="GET" name="18.2.19 根据班级ID获取知识点列表" url="/report/db/knowledgeList" value="knowledge_list"/>
+
+        <interface method="POST" name="18.3.0 预备教学视频" url="/report/questions/videoPrepare" value="video_prepare"/>
+        <interface method="POST" name="18.3.4 删除教学视频" url="/report/questions/deleteTeachVideo" value="delete_video"/>
+        <interface method="POST" name="18.3.5 上传教学视频" url="/report/questions/uploadVideo" value="upload_video"/>
+        <interface method="POST" name="18.3.6 获取收藏" url="/report/questions/correction" value="correction"/>
+
+        <interface method="GET" name="18.4.3 查询作业列表" url="/report/homework/list" value="homework_list"/>
+        <interface method="GET" name="18.4.2 查询作业成绩详情" url="/report/homework/score/detail/ps" value="score_detail_ps"/>
+        <interface method="GET" name="18.5.2 查询作业成绩错误率对比" url="/report/homework/score/detail/rate"
+                   value="score_detail_rate"/>
+
         <interface method="GET" name="18.6.1 智能组卷" url="/report/questions/combinedPaper" value="combined_paper"/>
         <interface method="GET" name="18.6.2 智能组卷换题" url="/report/questions/changeQue" value="questions_change"/>
         <interface method="GET" name="18.6.3 智能组卷根据知识点加题" url="/report/questions/knowledgeQue"
                    value="questions_knowledge"/>
+        <interface method="GET" name="批卷" url="/report/questions/correction/ps"
+                   value="questions_correction"/>
     </interfaces>
 
 

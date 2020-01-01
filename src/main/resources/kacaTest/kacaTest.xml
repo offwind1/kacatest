@@ -17,6 +17,9 @@
     <test name="后台测试">
         <classes>
             <class name="webTest.test_paper.paperTestCase"/>
+            <class name="webTest.test_paper.homeworkTestCase"/>
+            <class name="webTest.test_paper.classManageTestCase"/>
+            <class name="webTest.test_paper.serviceDataTestCase"/>
         </classes>
     </test>
 

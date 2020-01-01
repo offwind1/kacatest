@@ -22,6 +22,8 @@ public class Global {
     public static class Value {
         public final static String classId = getProperties("kaca.global.classId");
         public final static String schoolId = getProperties("kaca.global.schoolId");
+        public final static String video_url = getProperties("kaca.global.video.url");
+        public final static String video_duration = getProperties("kaca.global.video.duration");
     }
 
     private static Map<String, ElementMine> map = new HashMap<>();

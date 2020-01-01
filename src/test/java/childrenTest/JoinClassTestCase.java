@@ -32,9 +32,9 @@ public class JoinClassTestCase {
         String effEnd = object.getJSONObject("data").getString("effEnd");
         String vipTime = DateUtil.parse(effEnd, "yyyy/MM/dd").offset(DateField.DAY_OF_YEAR, 15).toString("yyyy-MM-dd");
 
-        List<String> list = parent.getChildrenIds();
-        parent.getApp().schoolAgent().join(classId, list.get(0));
-        vip_test(list.get(0), vipTime);
+        String childId = parent.current();
+        parent.getApp().schoolAgent().join(classId, childId);
+        vip_test(childId, vipTime);
     }
 
     @Step("vip测试")
