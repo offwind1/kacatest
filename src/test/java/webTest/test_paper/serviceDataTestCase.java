@@ -15,7 +15,7 @@ public class serviceDataTestCase {
     public void school_data_report_test() {
         JSONObject object = teacher.getApp().reportAgent().time_stamp();
         SampleAssert.assertResult0(object);
-        String timeStamp = Common.random(object.getJSONArray("data")).getString("timeStamp");
+        String timeStamp = Common.random(object.getJSONArray("data")).getString("startTimeStamp");
 
         object = teacher.getApp().reportAgent().school_data_report(Global.Value.schoolId, Global.Value.classId,
                 timeStamp, GlobalEnum.SubjectId.MATH, GlobalEnum.Period_time.YEAR);
