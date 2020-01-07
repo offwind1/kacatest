@@ -33,6 +33,7 @@ public class serviceDataTestCase {
                 timeStamp, GlobalEnum.SubjectId.MATH, GlobalEnum.Period_time.MONTH);
         SampleAssert.assertResult0(object);
 
+
         //
         object = teacher.getApp().reportAgent().class_data_report(Global.Value.classId, timeStamp,
                 GlobalEnum.SubjectId.MATH, GlobalEnum.Period_time.YEAR);
